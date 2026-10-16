@@ -43,7 +43,7 @@
   <h1>Terms of Use</h1>
 
   <p class="updated">
-    Effective date: 8 August 2026
+    Version 1.0 · Effective date: To be set at release
   </p>
 
   <p>
@@ -53,9 +53,9 @@
   </p>
 
   <p>
-    ESIVA is currently in development. App-specific provisions below describe
-    the intended public service and will be reviewed against the final release
-    before ESIVA becomes publicly available.
+    ESIVA is currently in development. These Terms describe the application
+    planned for public release, including Essential Health &amp; AI Data
+    Processing as described below.
   </p>
 
   <p>
@@ -67,8 +67,14 @@
   <h2>1. Use of ESIVA</h2>
 
   <p>
-    ESIVA is intended for personal, non-commercial fitness and general wellness
-    use.
+    ESIVA provides adaptive daily planning, training, recovery and nutrition
+    guidance for personal, non-commercial fitness and general wellness use.
+    Core planning and personalization process information on your iPhone,
+    including permitted Apple Health information. AI Nutrition uses selected
+    nutrition information processed externally through OpenAI, as described in
+    section 5. The separate required C2 consent is explained in section 9.
+    Optional Story AI Processing uses a separate C6 consent, as described in
+    <a href="#story-ai-processing">section 5.1</a>.
   </p>
 
   <p>You agree not to:</p>
@@ -96,8 +102,8 @@
   </p>
 
   <p>
-    ESIVA is not a medical device and does not provide medical diagnosis,
-    treatment or emergency services.
+    ESIVA is not intended to provide medical diagnosis, treatment or emergency
+    services. Do not use it to make medical decisions or delay professional care.
   </p>
 
   <p>
@@ -140,11 +146,31 @@
     and training conditions for your abilities and environment.
   </p>
 
-  <h2>5. Nutrition Suggestions</h2>
+  <h2>5. AI Nutrition Processing</h2>
 
   <p>
-    ESIVA may provide meal timing, calorie, macronutrient or food suggestions
-    for fitness and general wellness purposes.
+    ESIVA uses OpenAI to analyse food photos, analyse typed or
+    speech-transcribed food descriptions, suggest meals for the remaining day,
+    and generate images of suggested meals. Meal proposals may be generated
+    automatically while the App is active; meal-image requests may follow a
+    successful proposal automatically. The
+    <a href="https://esiva.app/privacy/#ai-nutrition-processing">Privacy Policy</a>
+    explains the data shared.
+  </p>
+
+  <p>
+    Provide information you have the right to use and check that your food
+    descriptions, portions and quantities are accurate. Avoid including other
+    people's personal information or unnecessary sensitive details in photos
+    or text.
+  </p>
+
+  <p>
+    AI output can be incomplete or wrong. Calorie and nutrient estimates may
+    be inaccurate; generated images are illustrations, not evidence of actual
+    ingredients, quantities or nutritional values. Review results before
+    recording a meal or following a suggestion. No particular outcome is
+    guaranteed.
   </p>
 
   <p>
@@ -155,7 +181,65 @@
 
   <p>
     You are responsible for checking ingredients, allergens, dietary
-    restrictions and whether a suggested food is appropriate for you.
+    restrictions and whether a suggested food is appropriate for you. ESIVA
+    cannot verify that a meal is allergy-safe. In an emergency, contact local
+    emergency services rather than relying on the App.
+  </p>
+
+  <h2 id="story-ai-processing" style="scroll-margin-top: 6rem;">5.1. Story AI Processing (C6)</h2>
+
+  <p>
+    Story AI Processing is an independent optional feature for creating
+    AI-assisted Stories from photos you select. It uses OpenAI to classify
+    photo content, process images and, for applicable food Stories, estimate
+    nutritional information. Not every Story uses all three operations.
+    This feature is separate from the future Outcome Network (C5), which is
+    not currently available.
+    Results are AI-generated or AI-assisted and may be inaccurate or
+    incomplete. Review generated content before relying on or sharing it.
+  </p>
+
+  <p>
+    C6 is requested when you initiate Story creation, not during onboarding.
+    Without valid C6 consent, Proceed to Photo opens the dedicated Story AI
+    Processing consent screen. Its explicit-consent checkbox starts unchecked,
+    and Continue requires your selection. Decline is available without checking
+    the box. Opening Story or the consent screen does not itself grant consent.
+    A successful explicit grant resumes the requested Story action;
+    while the grant remains valid, later attempts
+    continue without another consent prompt.
+  </p>
+
+  <p>
+    Decline closes the consent screen without creating a Story, starting
+    processing or making a commercial reservation. Proceed to Photo remains
+    available regardless of C6 consent state, subject to existing photo and
+    commercial conditions. If consent has not been requested, was declined
+    or was withdrawn, the next attempt opens the same unchecked consent
+    screen. You may try again and grant consent directly from Story; there
+    is no mandatory redirection to Settings.
+  </p>
+
+  <p>
+    Story AI processing requires valid C2 consent, valid C6 consent and the
+    applicable commercial authorization. C6 does not replace C2 or expand
+    its mandatory purpose, and is not required for ordinary ESIVA access.
+    Ordinary AI Nutrition does not require C6.
+  </p>
+
+  <p>
+    You can independently withdraw or grant C6 again in Settings → Consent
+    Center. Withdrawal stops authorization for new Story AI requests until
+    you explicitly grant consent again. It does not withdraw C2, change C3/C4
+    choices, cancel an Apple subscription, automatically delete existing Stories or
+    erase information already sent to OpenAI. Existing Story archives remain
+    accessible under their normal lifecycle. Subscription cancellation is a
+    separate Apple-managed action, as described in section 8.
+  </p>
+
+  <p>
+    The <a href="https://esiva.app/privacy/#story-ai-processing">Privacy Policy</a>
+    explains C6 data processing, recipients, retention and your rights.
   </p>
 
   <h2>6. Device and System Requirements</h2>
@@ -174,8 +258,11 @@
   <h2>7. Apple Health and Permissions</h2>
 
   <p>
-    ESIVA may request access to selected Apple Health categories when that
-    information is necessary for a feature you choose to use.
+    After valid C2 consent, ESIVA may request access on iPhone to selected
+    Apple Health categories when that information is necessary for a feature
+    you choose to use. This iOS authorization is separate from the explicit
+    data-processing consent described in section 9; completing the permission
+    request does not prove that read access was granted.
   </p>
 
   <p>
@@ -212,7 +299,10 @@
   <p>
     App Store subscriptions can be managed through the subscription settings
     associated with your Apple account. Deleting ESIVA does not by itself
-    cancel an active App Store subscription.
+    cancel an active App Store subscription. Withdrawing Essential Health
+    &amp; AI Data Processing consent (C2) does not cancel a subscription either;
+    manage it separately through
+    <a href="https://support.apple.com/en-us/118428">Apple's subscription settings</a>.
   </p>
 
   <h3>Refunds</h3>
@@ -222,12 +312,64 @@
     applicable refund policies.
   </p>
 
-  <h2>9. Accounts and Service Features</h2>
+  <h2>9. Access and Consent</h2>
 
   <p>
-    The final public version of ESIVA may use Apple platform services or other
-    service components to provide particular functionality. Any account
-    requirements will be clearly disclosed before the relevant feature is used.
+    The current ESIVA App has no user accounts or account-based identity.
+    Apple accounts used for platform services or purchases are separate from
+    ESIVA. Public profiles, Journey sharing, following, a social graph, E Coins
+    marketplace, creator earnings and Outcome Network are not current features.
+  </p>
+
+  <p>
+    Normal App access requires your explicit acceptance of the current version
+    of these Terms (C1). The Terms checkbox starts unchecked and must be selected
+    by you. Acceptance evidence is stored locally on your iPhone. Missing or
+    outdated acceptance blocks normal access. Consent Center displays your
+    Terms status; there is no separate C1 withdrawal switch. Terms acceptance
+    is a contractual action, not blanket consent to health-data or AI Nutrition
+    processing.
+  </p>
+
+  <p>
+    Separately, Essential Health &amp; AI Data Processing (C2, version 2) covers
+    local processing of permitted Apple Health data on iPhone and selected
+    nutrition processing through OpenAI. Both activities are essential for
+    ESIVA's designed personalized health, fitness, training and nutrition
+    service. The C2 checkbox starts unchecked and requires your explicit
+    selection. You may refuse consent, but without valid C2 normal ESIVA
+    access is unavailable. The
+    <a href="https://esiva.app/privacy/#ai-nutrition-processing">Privacy Policy</a>
+    explains these processing activities.
+  </p>
+
+  <p>
+    To withdraw C2, open Settings → Consent Center → Withdraw Essential Data
+    Consent. Withdrawal blocks normal App access, new OpenAI requests and new
+    covered iPhone HealthKit authorization, reading and refresh operations.
+    Your C3/C4 optional choices remain unchanged. Withdrawal does not
+    automatically erase stored information or delete information previously
+    transmitted to external providers. It does not cancel a subscription;
+    cancellation remains separate as described in section 8.
+  </p>
+
+  <p>
+    You may provide C2 consent again through the required consent screen.
+    C1 and C2 are initially unchecked and require explicit selection; C3 and
+    C4 restore your saved optional choices. Current Terms acceptance and valid
+    C2 restore access through the existing App checks; applicable paid-access
+    requirements remain unchanged.
+  </p>
+
+  <p>
+    Share App Usage Data (C3) and Share Health &amp; Outcome Data (C4) are
+    independent optional choices, both off during initial onboarding. You can
+    manage them in Consent Center. Their choices are saved locally, but C3/C4 analytics
+    collection, transmission to an ESIVA analytics backend, and server storage
+    and processing are not implemented. Neither choice is included in C2 or
+    required for ESIVA access; refusing either does not limit normal App
+    functionality. The <a href="/privacy/#consent-controls">Privacy Policy</a>
+    provides further information about consent and control.
   </p>
 
   <h2>10. Intellectual Property</h2>
@@ -247,14 +389,15 @@
   <h2>11. Third-Party and Platform Services</h2>
 
   <p>
-    ESIVA may rely on services supplied by Apple or other providers for
-    platform functionality, infrastructure or specific product features.
+    ESIVA relies on Apple for relevant platform services and uses OpenAI for
+    the AI Nutrition and separate optional Story AI Processing functions
+    described above.
     Availability of those services may affect ESIVA.
   </p>
 
   <p>
-    Where third-party processing is relevant to personal information, it will
-    be described in the Privacy Policy applicable to the released version.
+    Third-party personal-data processing is described in the
+    <a href="/privacy/">Privacy Policy</a>.
   </p>
 
   <h2>12. Availability and Changes</h2>
@@ -298,7 +441,8 @@
 
   <p>
     We may suspend or discontinue ESIVA or particular services where reasonably
-    necessary, subject to applicable law.
+    necessary for security, misuse, legal requirements or service operation,
+    subject to applicable law and mandatory consumer rights.
   </p>
 
   <h2>16. Changes to These Terms</h2>
@@ -307,6 +451,12 @@
     We may update these Terms as ESIVA develops or as legal and operational
     requirements change. The current version and effective date will be
     published on this page.
+  </p>
+
+  <p>
+    When the applicable Terms version changes, you must explicitly accept
+    the new current version before normal App access can continue. Merely
+    viewing these Terms does not replace the required acceptance.
   </p>
 
   <h2>17. Applicable Law and Consumer Rights</h2>

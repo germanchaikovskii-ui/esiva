@@ -15,6 +15,38 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <style>
+    .legal-copy .retention-table {
+      width: 100%;
+      max-width: 790px;
+      margin: 24px 0;
+      border-collapse: collapse;
+      table-layout: fixed;
+      color: #454858;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    .retention-table th,
+    .retention-table td {
+      padding: 14px 12px;
+      border: 1px solid rgba(8,10,44,.12);
+      text-align: left;
+      vertical-align: top;
+      overflow-wrap: anywhere;
+    }
+
+    .retention-table th:first-child { width: 30%; }
+    .retention-table thead { background: rgba(110,86,207,.06); }
+
+    @media (max-width: 700px) {
+      .legal-copy .retention-table { font-size: 15px; }
+      .retention-table th:first-child { width: 40%; }
+      .retention-table th,
+      .retention-table td { padding: 10px 8px; }
+    }
+  </style>
 </head>
 
 <body class="info-page">
@@ -40,23 +72,25 @@
 
   <div class="info-eyebrow">PRIVACY</div>
 
-  <h1>Your data should work for you.</h1>
+  <h1>Privacy Policy</h1>
 
   <p class="updated">
-    Pre-release Privacy Policy · Last updated 8 August 2026
+    Version 1.0 · Effective date: To be set at release
   </p>
 
   <p>
-    ESIVA is a product of Nordic Labs Tech Oy. This Privacy Policy explains
-    the privacy principles for the esiva.app website and the intended ESIVA
-    application.
+    Nordic Labs Tech Oy is responsible for ESIVA and is the controller for
+    personal data it processes in connection with ESIVA. This Privacy Policy
+    covers the esiva.app website and the current ESIVA application. Privacy
+    contact: <a href="mailto:support@esiva.app">support@esiva.app</a>.
   </p>
 
   <p>
-    ESIVA is currently in development. Before public App Store release, this
-    policy will be reviewed against the final production implementation,
-    including the exact data categories, storage locations and service
-    providers used by released features.
+    ESIVA is currently in development. This policy describes the application
+    planned for public release. It distinguishes the existing essential local
+    Apple Health and external AI Nutrition processing, and the existing
+    optional Story AI Processing, from planned optional analytics, which are
+    not yet operating.
   </p>
 
   <h2>1. Plain-English Summary</h2>
@@ -80,19 +114,48 @@
     </li>
 
     <li>
-      We will disclose any external processing required by released ESIVA
-      features before public release.
+      Core planning uses information on your device. AI Nutrition sends the
+      selected categories described below to OpenAI; it is not entirely
+      on-device.
+    </li>
+
+    <li>
+      Essential Health &amp; AI Data Processing consent (C2, version 2) is
+      required for normal App access. It covers permitted Apple Health data
+      processed locally on iPhone and selected nutrition information sent to
+      OpenAI. Refusal or withdrawal blocks normal access and new covered
+      processing, but does not automatically delete data or cancel subscriptions.
+    </li>
+
+    <li>
+      <a href="#story-ai-processing">Story AI Processing (C6)</a> is a separate
+      optional purpose: selected photos are sent to OpenAI for Story creation.
+      You can decline or withdraw it without losing access to other ESIVA
+      features or existing Story archives.
+    </li>
+
+    <li>
+      App-usage and health/outcome analytics are separate optional choices
+      (C3 and C4), both off during initial onboarding. Their controls exist;
+      analytical collection, transmission and server processing do not yet operate.
+    </li>
+
+    <li>
+      The current App has no user accounts, public profiles, Journey sharing,
+      following, social graph, E Coins marketplace, creator earnings or active
+      Outcome Network.
     </li>
   </ul>
 
-  <h2>2. Information ESIVA May Access</h2>
+  <h2>2. On-Device Data and Direct Contacts</h2>
 
   <h3>2.1 Health and Fitness Information</h3>
 
   <p>
-    With your permission, ESIVA may access selected information available
-    through Apple Health and connected Apple devices when required to provide
-    the features you use.
+    With valid C2 consent and the separate system permissions, ESIVA accesses
+    selected information available through Apple Health and connected Apple
+    devices for the features you use. Permitted Apple Health information is
+    processed locally on your iPhone.
   </p>
 
   <p>This may include categories such as:</p>
@@ -109,21 +172,30 @@
   </ul>
 
   <p>
-    ESIVA uses this context to provide functions such as adaptive training,
-    recovery guidance, daily planning and progress information.
+    ESIVA uses this context for personalized training, recovery assessment,
+    activity and energy balance, fitness and physiological calculations,
+    daily planning and personalized recommendations on your device.
+    Granting Apple Health permission does not mean that all health data is
+    uploaded to ESIVA servers or OpenAI. The specific external AI categories
+    are described in section 5.
   </p>
 
   <h3>2.2 Nutrition and User-Entered Information</h3>
 
   <p>
-    Features may allow you to enter or record information such as meals,
-    nutrition, weight, hunger, energy, training feedback or other optional
-    inputs.
+    Features may allow you to enter or record profile information, preferences,
+    goals, meals, nutrition, weight, hunger, energy, training feedback and
+    manual recovery or glucose information. These user-entered records are
+    distinct from measurements received from Apple Health or Apple Watch and
+    from indicators calculated locally by ESIVA.
   </p>
 
   <p>
     ESIVA uses these inputs to provide the feature requested and, where
-    applicable, improve personalization of future guidance.
+    applicable, improve personalization of future guidance on your device.
+    Food photos, descriptions and selected nutrition context can also be used
+    by AI Nutrition as described in section 5. This is distinct from optional
+    sharing for broader recommendation improvement.
   </p>
 
   <h3>2.3 Subscription Status</h3>
@@ -141,6 +213,30 @@
     including your email address and the contents of your message.
   </p>
 
+  <h3>2.5 Acceptance, Consent and Optional Choices</h3>
+
+  <p>
+    ESIVA records acceptance of the current Terms of Use (C1) separately from
+    C2 consent. Terms acceptance evidence includes the accepted Terms version,
+    acceptance time, App version and build, locale and the Privacy Policy
+    version presented. C2 evidence also records the consent purpose and version,
+    consent-text version, granted or withdrawn state, relevant dates and how
+    the consent was provided or withdrawn. The current C2 consent version is 2;
+    an earlier Nutrition-only consent does not satisfy this expanded purpose.
+  </p>
+
+  <p>
+    C1 and C2 evidence is held in separate Keychain records on your iPhone,
+    not in an ESIVA account. C3 and C4 are two independent choices saved in
+    local App settings; they do not currently create analytical records or a
+    server-side analytics dataset.
+  </p>
+
+  <p>
+    Optional <a href="#story-ai-processing">C6 Story AI consent</a> has its own
+    separate Keychain evidence. It does not replace C2 or change C3/C4 choices.
+  </p>
+
   <h2>3. How Information Is Used</h2>
 
   <p>Information available to ESIVA may be used to:</p>
@@ -150,6 +246,7 @@
     <li>provide adaptive workout recommendations;</li>
     <li>provide workout execution guidance;</li>
     <li>provide nutrition and meal-timing guidance;</li>
+    <li>create Story images and related results with separate C6 consent;</li>
     <li>show training and muscle-load progress;</li>
     <li>provide recovery-related guidance;</li>
     <li>
@@ -176,23 +273,255 @@
     recommendation succeeded or failed.
   </p>
 
-  <h2>5. Processing and Storage</h2>
+  <p>
+    This on-device personalization is separate from the planned optional
+    sharing described below.
+  </p>
+
+  <h2 id="ai-nutrition-processing" style="scroll-margin-top: 6rem;"><span id="ai-nutrition" style="scroll-margin-top: 6rem;">5. Essential Health &amp; AI Data Processing</span></h2>
 
   <p>
-    ESIVA uses Apple-device and application storage where appropriate.
-    The exact production data-flow for every public feature will be documented
-    in this Privacy Policy before release.
+    C2 covers two essential activities: local processing of permitted Apple
+    Health data on iPhone for the functions described in section 2.1, and
+    selected AI Nutrition processing through OpenAI. Both are necessary for
+    ESIVA's designed personalized health, training and nutrition service.
+    Only the selected nutrition information described below is sent to OpenAI;
+    local Apple Health processing does not mean that all Health measurements
+    are transmitted externally.
   </p>
 
   <p>
-    In particular, we will not represent a feature as entirely on-device if
-    that feature requires external processing.
+    Within C2, AI Nutrition sends requests from your iPhone to OpenAI to
+    estimate nutrition, suggest remaining-day meals and create meal images.
+    OpenAI receives the relevant request; the App displays the returned
+    nutrition estimate, meal proposal or generated image locally.
+  </p>
+
+  <h3>Food photos</h3>
+
+  <p>
+    A food photo and any optional text hint are sent for analysis. A hint may
+    be typed or transcribed from speech. Analysis can start after selecting or
+    taking a photo; a retry can send a new request. Story-specific food
+    analysis is described separately under <a href="#story-ai-processing">C6</a>.
+  </p>
+
+  <h3>Food descriptions</h3>
+
+  <p>
+    When you request analysis, your typed food or drink description, or the
+    text obtained from speech recognition, is sent. An audio recording is not
+    included in these OpenAI nutrition requests. This statement does not
+    describe the separate speech-recognition service's processing.
+  </p>
+
+  <h3>Remaining-day meal proposals</h3>
+
+  <p>
+    The request uses selected nutrition context: calorie, protein, fat,
+    carbohydrate and fibre targets, logged values and remaining requirements
+    for individual meals and the remaining day. It also includes summaries
+    of foods recorded during the previous 14 completed days, such as foods,
+    quantities, nutrients and how often they were recorded; pseudonymous
+    device-local and request identifiers; and day, time-zone and timing
+    context. Pseudonymous does not mean anonymous.
   </p>
 
   <p>
-    If a released ESIVA feature uses a service provider to process information,
-    this policy will identify the relevant category of processing and explain
-    what information is involved.
+    Proposals can be requested with Generate or automatically when the
+    Today/Lab nutrition context is ready and eligible during an active App
+    session. External processing therefore does not always require a separate
+    button press for each request.
+  </p>
+
+  <h3>Generated meal images</h3>
+
+  <p>
+    Image requests use the AI-proposed dish name, ingredients, quantities,
+    units and brief preparation information. They do not send your original
+    food photo or the broader nutrition context. Requests follow successful
+    meal proposals automatically; a missing local cached image can cause a
+    further request.
+  </p>
+
+  <h3>What the App does not automatically add</h3>
+
+  <p>
+    These AI Nutrition requests do not automatically include raw Apple
+    Health samples, blood glucose, menstrual-cycle data, training plans, your
+    name, email address or an account ID. Nutrition targets can reflect a
+    broader calculation performed locally. Photos, hints and descriptions can
+    themselves contain personal information you choose to include.
+  </p>
+
+  <h3 id="consent-controls" style="scroll-margin-top: 6rem;">Consent and control</h3>
+
+  <p>
+    During initial onboarding, all four C1–C4 checkboxes are unchecked.
+    Accepting the current Terms (C1) and explicitly selecting the separate
+    C2 checkbox are required to continue. Reading this policy is informational
+    and has no acceptance checkbox. You may refuse C2; without valid consent,
+    normal ESIVA access is unavailable.
+  </p>
+
+  <p>
+    To withdraw C2, open Settings → Consent Center → Withdraw Essential Data
+    Consent. Withdrawal blocks normal App access, new OpenAI requests and new
+    covered iPhone-initiated HealthKit authorization, reading and refresh
+    operations. It does not revoke Apple's system permissions, reset C3/C4
+    choices, automatically delete existing local data or erase information
+    already sent to OpenAI. It does not cancel an App Store subscription;
+    subscription management remains separate.
+    Withdrawal does not affect the lawfulness of processing based on consent
+    before withdrawal.
+  </p>
+
+  <p>
+    You may explicitly provide consent again through the required consent
+    screen. C1 and C2 are again unchecked and require your selection; C3 and
+    C4 restore your persisted optional choices. Valid current Terms acceptance
+    and C2 consent restore normal access and permit new processing through the
+    existing checks, subject to separate system permissions where required.
+  </p>
+
+  <h3 id="app-usage-data" style="scroll-margin-top: 6rem;">Optional app usage sharing (C3)</h3>
+
+  <p>
+    Share App Usage Data is an implemented optional choice, off by default
+    during initial onboarding and independently changeable in Consent Center.
+    Its current effect is to save your choice locally. Planned C3 analytics
+    would use limited product-usage and technical events to understand feature
+    use, performance and reliability, not health histories or detailed
+    nutrition content. Analytical observation collection, transmission to an
+    ESIVA analytics backend and server-side storage or processing are not yet
+    implemented.
+  </p>
+
+  <h3 id="health-outcome-data" style="scroll-margin-top: 6rem;">Optional health and outcome sharing (C4)</h3>
+
+  <p>
+    Share Health &amp; Outcome Data is a separate implemented optional choice,
+    also off by default during initial onboarding and independently changeable
+    in Consent Center. It currently saves only your local choice. Planned C4
+    analytics would use selected health, training, nutrition and outcome
+    information to improve recommendations, study outcomes and learn what
+    works for people with similar profiles or goals. No C4 analytical
+    collection, upload, server-side dataset or processing is implemented.
+    This is distinct from local personalization, C2 and public Journey sharing.
+  </p>
+
+  <p>
+    C3 and C4 are independent of each other and are not conditions for normal
+    ESIVA access. Refusing either does not limit normal App functionality;
+    withdrawing C2 does not reset them. Before either analytical flow starts,
+    we will provide its approved data categories, purposes, recipients,
+    storage region, retention, security and access controls, and user
+    identification and rights procedures. Any required notice or consent will
+    precede the processing. Once such a flow is active, switching its choice
+    off will prevent new collection and transfer for that channel; deletion
+    of earlier records will follow the applicable separate procedure.
+  </p>
+
+  <p>
+    The planned analytical backend is not an App backup, synchronization or
+    recovery service, or a source for App calculations. Any future server
+    retention will be independent of local retention; regular analytical
+    transmission will not wait for local records to expire.
+  </p>
+
+  <p>
+    Outcome Network (C5) is not implemented and receives no data in the
+    current product.
+  </p>
+
+  <h2 id="story-ai-processing" style="scroll-margin-top: 6rem;">5.1. Story AI Processing (C6)</h2>
+
+  <p>
+    Story AI Processing is an implemented, optional purpose for creating
+    Stories from photos you select. OpenAI receives the selected photo and
+    processing instructions for the relevant operation. Photos may contain
+    people. Depending on the Story workflow, processing can include the
+    following operations; not every Story uses all three:
+  </p>
+
+  <ul>
+    <li>
+      <strong>Photo classification.</strong> The selected photo is sent to
+      OpenAI to classify its content as person, food or uncertain. The result
+      guides the Story workflow; classification does not establish a person's
+      identity.
+    </li>
+    <li>
+      <strong>AI photo processing.</strong> The selected photo is sent to
+      OpenAI with image-processing instructions reflecting the content
+      category and selected ESIVA theme, to return a processed or generated
+      Story image. The photo may show people.
+    </li>
+    <li>
+      <strong>Story food analysis.</strong> For applicable food Stories,
+      including when proceeding to Metrics, OpenAI analyzes the selected
+      photo and returns an estimated food description, calories and nutrients.
+      This Story-specific operation is
+      separate from ordinary AI Nutrition food logging under C2.
+    </li>
+  </ul>
+
+  <p>
+    These requests also carry technical request identifiers. Results are
+    used locally within the Story workflow; saved Stories belong to the
+    separate local archive described in section 12. C6 does not create a
+    C3/C4 analytics dataset or a new ESIVA server store of your photos.
+  </p>
+
+  <h3>Explicit consent before Story creation</h3>
+
+  <p>
+    C6 is not requested during onboarding. When you select Proceed to Photo
+    without a valid C6 grant, ESIVA opens the Story AI Processing consent
+    screen before photo selection or commercial preparation and reservation
+    for a new Story. It explains OpenAI processing and links to this policy.
+    Its checkbox starts unchecked; Continue is enabled only after you select
+    it, while Decline is always available. Opening Story or this screen does
+    not itself grant consent.
+  </p>
+
+  <p>
+    An explicit grant is saved and read back successfully from a separate
+    local Keychain record before processing is authorized. This versioned
+    evidence records the purpose, consent-copy version, timestamp, decision,
+    App version and build, and locale. Missing or invalid evidence, or a
+    storage failure, does not authorize processing. A successful grant resumes
+    the requested Story action; later attempts proceed without another prompt
+    while the grant remains valid.
+  </p>
+
+  <p>
+    Decline closes the consent screen without starting Story processing or
+    a commercial reservation. Proceed to Photo remains available regardless
+    of C6 state, subject to the existing photo and commercial requirements.
+    If consent has not been requested, was declined or was withdrawn, the
+    next attempt opens the same unchecked consent screen. There is no
+    mandatory redirection to Settings. A valid grant continues the normal
+    Story flow.
+  </p>
+
+  <h3>Independent authorization and withdrawal</h3>
+
+  <p>
+    Every new Story AI request, including a retry, requires valid C2 consent,
+    valid C6 consent and the applicable commercial authorization. C6 does not
+    replace C2 or expand its mandatory purpose, and is not required for normal
+    ESIVA access. Ordinary AI Nutrition does not require C6.
+  </p>
+
+  <p>
+    You can review, withdraw or grant C6 again independently in Settings →
+    Consent Center. Withdrawal prevents new Story AI requests until you
+    explicitly grant consent again, either there or directly from Story.
+    It does not withdraw C2, change C3/C4 choices, cancel an Apple subscription,
+    automatically delete existing Stories or erase information already sent
+    to OpenAI. Existing Story archives remain accessible. Withdrawal does
+    not affect the lawfulness of processing based on consent before withdrawal.
   </p>
 
   <h2>6. Health Data and Advertising</h2>
@@ -233,6 +562,15 @@
   </p>
 
   <p>
+    On iPhone, GDPR C2 consent is requested before the relevant HealthKit
+    authorization. The iOS permission request is a separate system action:
+    completing it does not prove that you granted read access. Neither
+    accepting the Terms nor granting system permissions replaces explicit C2
+    consent. Apple's Health data storage remains separate from ESIVA's local
+    records, and independent Apple Watch authorization is a separate process.
+  </p>
+
+  <p>
     If access to a required category is disabled, ESIVA may be unable to
     provide features that depend on that information.
   </p>
@@ -263,11 +601,76 @@
   </p>
 
   <p>
-    Before public release, this section will be updated to match the final
-    provider architecture used by ESIVA.
+    OpenAI receives the <a href="#ai-nutrition-processing">C2 AI Nutrition</a>
+    requests and the separate optional <a href="#story-ai-processing">C6 Story
+    AI Processing</a> requests. Apple provides relevant device, Health and
+    App Store services. Website hosting and email infrastructure are separate
+    from these OpenAI flows; they do not imply an ESIVA server holding all of
+    your health data.
   </p>
 
-  <h2>11. Legal Requirements</h2>
+  <p>
+    Apple also provides CloudKit storage for commercial evidence associated
+    with Story. These records support the recovery and settlement of the
+    relevant commercial operations. They are separate from the local Story
+    archive of images and its 30-day lifecycle, from OpenAI requests, and from
+    the planned C3/C4 analytics backend. Their existence does not mean that
+    Outcome Network, public Journey sharing or creator earnings are available.
+    CloudKit retention follows its separate commercial-record lifecycle as
+    the relevant state is recorded; evidence needed for active recovery and
+    settlement procedures is protected from routine cleanup. The local Story
+    archive's retention period is not a CloudKit deletion guarantee.
+  </p>
+
+  <p>
+    OpenAI processes the information needed to provide AI Nutrition and
+    optional Story AI Processing under the applicable service and
+    data-processing terms. This policy does not
+    guarantee a particular provider retention period, processing location or
+    automatic deletion of previously submitted requests.
+  </p>
+
+  <h2>11. Consent and Legal Requirements</h2>
+
+  <p>
+    We distinguish the lawful basis under Article 6 GDPR from the additional
+    condition needed for special-category health data under Article 9:
+  </p>
+
+  <ul>
+    <li>
+      Necessary contractual processing outside C2 and C6, where applicable, relies
+      on Article 6(1)(b). This includes recording acceptance of the Terms (C1)
+      and necessary service operations outside those consent-based purposes.
+      C1 is not health-data consent.
+    </li>
+    <li>
+      C2 relies on consent under Article 6(1)(a). For health data within C2,
+      explicit consent under Article 9(2)(a) is the additional condition.
+      Article 9 does not replace Article 6, and local processing is not exempt
+      from GDPR simply because information stays on your device.
+    </li>
+    <li>
+      Planned C3 and C4 analytics are separate optional consent-based purposes
+      under Article 6(1)(a); C4 health-data processing will additionally require
+      explicit consent under Article 9(2)(a). Neither C1, C2 nor Apple Health
+      permissions authorizes these separate purposes. No C5 processing is active.
+    </li>
+    <li>
+      C6 Story AI Processing is a separate optional purpose based on consent
+      under Article 6(1)(a). Where the actual processing involves special-category
+      personal data, explicit consent under Article 9(2)(a) is the additional
+      condition. A photograph is not automatically health or biometric data
+      simply because it shows a person.
+    </li>
+  </ul>
+
+  <p>
+    C2 is necessary for ESIVA's designed personalized service, with the refusal
+    and withdrawal consequences explained in section 5. Consent must meet GDPR's
+    requirements, including the assessment of service necessity under
+    Article 7(4).
+  </p>
 
   <p>
     We may disclose information when reasonably necessary to comply with
@@ -278,14 +681,160 @@
   <h2>12. Data Retention</h2>
 
   <p>
-    Retention depends on the type of information and where the relevant ESIVA
-    feature stores or processes it.
+    The following limits describe ESIVA's existing local storage. Calendar
+    windows include the current day. A count of stored dates or records is
+    not a calendar expiry period, and no single 30-day rule applies to all data.
+  </p>
+
+  <table class="retention-table">
+    <thead>
+      <tr>
+        <th scope="col">Local data</th>
+        <th scope="col">Retention and lifecycle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Confirmed nutrition</th>
+        <td>
+          The last 365 stored day entries, not a rolling 365-calendar-day
+          expiry. A protected pending meal and its composition may temporarily
+          keep one additional older day until its confirmation has been
+          durably saved. Food entries and composition are stored locally;
+          a photo thumbnail may be kept after you add a meal.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Weight history</th>
+        <td>
+          28 populated historical dates, not 28 calendar days. Current weight
+          and goals have separate lifecycles.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Workout completion</th>
+        <td>30 calendar days: the current day and the preceding 29 days.</td>
+      </tr>
+      <tr>
+        <th scope="row">Training Load evidence</th>
+        <td>43 calendar days: the current day and the preceding 42 days.</td>
+      </tr>
+      <tr>
+        <th scope="row">Phone Only daily aggregates</th>
+        <td>43 calendar days.</td>
+      </tr>
+      <tr>
+        <th scope="row">Manual Recovery</th>
+        <td>42 calendar days.</td>
+      </tr>
+      <tr>
+        <th scope="row">Manual glucose</th>
+        <td>30 calendar days.</td>
+      </tr>
+      <tr>
+        <th scope="row">Local sleep and energy histories</th>
+        <td>30 calendar days; original Apple Health measurements remain separate.</td>
+      </tr>
+      <tr>
+        <th scope="row">Local Story archive</th>
+        <td>
+          30 calendar days for the local archive index and associated images.
+          Cleanup occurs when the archive is accessed or maintained and
+          removes images no longer referenced by the saved index. This does
+          not determine CloudKit commercial-evidence retention.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Temporary Story processing results</th>
+        <td>
+          Classification, processed images and applicable food estimates are
+          used within the existing Story workflow. No fixed general retention
+          period is established for these temporary results. Saved archive
+          records have the separate 30-calendar-day lifecycle above.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">AI Nutrition results and images</th>
+        <td>
+          Raw AI responses are used temporarily in memory. One current generated
+          meal proposal is kept, replaced by a newer proposal, without an archive
+          of revisions. Becoming out of date does not itself erase it. Generated
+          images are cached; outdated revisions are removed during cache
+          maintenance. There is no universal calendar expiry for these caches.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Local AI diagnostics</th>
+        <td>
+          Food-analysis usage diagnostics: up to 2,000 records. AI-provider
+          usage diagnostics: up to 5,000 records. These are record-count limits,
+          not day limits. Records contain technical metadata, not prompt,
+          photo or AI-response contents.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">C1 and C2 evidence</th>
+        <td>
+          Separate Keychain records without a universal calendar expiration.
+          Withdrawal updates the C2 state rather than deleting its evidence.
+          Removing the App does not guarantee deletion of Keychain records.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">C6 consent evidence</th>
+        <td>
+          A separate local Keychain record of the versioned Story consent
+          decision. No fixed general retention period is established.
+          Withdrawal updates the decision rather than deleting its evidence;
+          it does not automatically delete Story records or OpenAI data.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">C3 and C4 choices</th>
+        <td>
+          Independent values in local App settings, off when no choice is
+          saved. Only the choices are stored; no C3/C4 analytics dataset exists.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Profile, current weight and goals</th>
+        <td>
+          Kept until changed or cleared through the applicable App controls.
+          They do not share one general calendar retention period.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Older Dashboard remnants</th>
+        <td>
+          Earlier local compatibility records may remain without age-based
+          cleanup. They are not the current authoritative source for App data;
+          current Watch intake does not add to that older archive.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    Cleanup takes place during the relevant storage, access or maintenance
+    operations, not necessarily at midnight or while the App is inactive.
+    Display windows and filtered histories do not themselves prove physical
+    erasure; failed writes or deletion attempts may leave residual records.
   </p>
 
   <p>
-    The final release policy will describe applicable retention practices for
-    server-side processing, if any, and other information controlled by Nordic
-    Labs Tech Oy.
+    You can delete confirmed meal groups and change available profile and goal
+    settings in the App. Withdrawing C2 does not delete existing local data or
+    automatically erase information already submitted to OpenAI. To ask about
+    applicable access or deletion rights, use the contact in section 13.
+  </p>
+
+  <p>
+    Uninstalling ESIVA removes its active local App container; it is not a
+    request or guarantee to delete Apple Health data, Keychain evidence,
+    CloudKit commercial records or information previously sent to OpenAI.
+    Device backups have a separate lifecycle. Provider retention and deletion
+    depend on the applicable service, configuration and data-processing terms,
+    not on the local limits above. CloudKit is described separately in section 10.
   </p>
 
   <h2>13. Your Choices and Rights</h2>
@@ -295,24 +844,58 @@
   <ul>
     <li>control or revoke Apple Health permissions;</li>
     <li>stop providing optional inputs;</li>
-    <li>stop using or uninstall ESIVA;</li>
+    <li>withdraw C2 consent, with the access consequences in section 5;</li>
+    <li>independently withdraw or grant <a href="#story-ai-processing">C6 Story AI consent</a>;</li>
+    <li>independently change your local C3 and C4 choices in Consent Center;</li>
+    <li>delete confirmed meal groups or stop using ESIVA;</li>
     <li>
-      exercise applicable privacy rights relating to personal information
-      controlled by Nordic Labs Tech Oy.
+      request access, correction, erasure, restriction or portability, and
+      object to processing where those rights apply under data-protection law;
     </li>
+    <li>lodge a complaint with a competent data-protection authority.</li>
   </ul>
 
   <p>
-    Requests concerning information controlled by Nordic Labs Tech Oy can be
-    sent to
-    <a href="mailto:privacy@esiva.app">privacy@esiva.app</a>.
+    To exercise your rights or ask about information controlled by Nordic
+    Labs Tech Oy, email <a href="mailto:support@esiva.app">support@esiva.app</a>.
+    Describe the right you wish to exercise and the relevant records or feature,
+    without sending unnecessary health details. Where applicable, you may
+    request access and a copy of your personal data, correction, erasure or
+    another right listed above.
+  </p>
+
+  <p>
+    We may request proportionate additional information if needed to verify
+    that the request concerns your data. ESIVA has no user accounts; an email
+    address alone does not establish a right to another person's health
+    records. We will explain any relevant verification steps without requiring
+    unnecessary personal information.
+  </p>
+
+  <p>
+    We respond without undue delay, normally within one month of receiving
+    your request. Under Article 12(3) GDPR, that period may be extended by up to
+    two additional months where necessary because of the complexity or number
+    of requests; we will inform you within the initial month and explain why.
+  </p>
+
+  <p>
+    Rights are subject to their legal conditions and the data actually held.
+    We do not hold a general server copy of on-device health records. Apple
+    Health information and system permissions are managed separately through
+    Apple; requests involving information held by external providers depend
+    on the applicable arrangements and rights. No C3/C4 server dataset or
+    server-side export or deletion operation currently exists. This does not
+    remove applicable rights concerning data we do process. Uninstalling the
+    App has the separate limits described in section 12.
   </p>
 
   <h2>14. Security</h2>
 
   <p>
-    We use reasonable technical and organizational measures intended to protect
-    ESIVA and information processed in connection with the service.
+    AI requests use encrypted HTTPS transport; certain local stores use Apple
+    platform protection. These measures are not a guarantee that every
+    store, backup or third-party service has the same protection.
   </p>
 
   <p>
@@ -323,9 +906,10 @@
   <h2>15. International Processing</h2>
 
   <p>
-    Where a service provider processes information outside your country,
-    applicable data-protection requirements and safeguards will be considered
-    as part of the production service configuration.
+    External service providers may process information in countries other than
+    your own. Processing is subject to applicable service and data-processing
+    terms and data-protection law; this policy does not guarantee EU-only
+    processing.
   </p>
 
   <p>
@@ -353,18 +937,15 @@
   </p>
 
   <p>
-    The latest version will be published on this page with an updated date.
+    The latest version will be published at this canonical URL with its
+    version and effective date. Any change requiring a new notice or consent
+    must be handled before the changed processing starts.
   </p>
 
   <h2>18. Contact</h2>
 
   <p>
-    Privacy questions can be sent to
-    <a href="mailto:privacy@esiva.app">privacy@esiva.app</a>.
-  </p>
-
-  <p>
-    General support:
+    For privacy questions, data-rights requests and general support, contact
     <a href="mailto:support@esiva.app">support@esiva.app</a>.
   </p>
 
