@@ -89,8 +89,8 @@
     ESIVA is currently in development. This policy describes the application
     planned for public release. It distinguishes the existing essential local
     Apple Health and external AI Nutrition processing, and the existing
-    optional Story AI Processing, from planned optional analytics, which are
-    not yet operating.
+    optional Story AI Processing and Voice Training AI Processing, from
+    planned optional analytics, which are not yet operating.
   </p>
 
   <h2>1. Plain-English Summary</h2>
@@ -132,6 +132,14 @@
       optional purpose: selected photos are sent to OpenAI for Story creation.
       You can decline or withdraw it without losing access to other ESIVA
       features or existing Story archives.
+    </li>
+
+    <li>
+      <a href="#voice-training-ai-processing">Voice Training AI Processing (C7)</a>
+      is optional. Apple Speech converts voice input to text and may process
+      it outside your device. OpenAI interprets your reviewed workout
+      description; ESIVA builds the workout locally. Declining C7 does not
+      disable other training features.
     </li>
 
     <li>
@@ -237,6 +245,14 @@
     separate Keychain evidence. It does not replace C2 or change C3/C4 choices.
   </p>
 
+  <p>
+    Optional <a href="#voice-training-ai-processing">C7 Voice Training AI consent</a>
+    has a separate, versioned Keychain record on your iPhone. It records the
+    purpose, consent-copy version, timestamp, granted, declined or withdrawn
+    decision, App version and build, and locale. No record means consent has
+    not been requested. This evidence is separate from C1–C6.
+  </p>
+
   <h2>3. How Information Is Used</h2>
 
   <p>Information available to ESIVA may be used to:</p>
@@ -247,6 +263,7 @@
     <li>provide workout execution guidance;</li>
     <li>provide nutrition and meal-timing guidance;</li>
     <li>create Story images and related results with separate C6 consent;</li>
+    <li>interpret your workout descriptions with separate C7 consent;</li>
     <li>show training and muscle-load progress;</li>
     <li>provide recovery-related guidance;</li>
     <li>
@@ -524,6 +541,93 @@
     not affect the lawfulness of processing based on consent before withdrawal.
   </p>
 
+  <h2 id="voice-training-ai-processing" style="scroll-margin-top: 6rem;">5.2. Voice Training AI Processing (C7)</h2>
+
+  <p>
+    Voice Training AI Processing is an independent optional purpose for
+    understanding the workout you request. You may describe a workout by
+    voice or type a description. Your description and answers may contain
+    personal or health-related information you choose to share.
+  </p>
+
+  <h3>Speech recognition, interpretation and workout generation</h3>
+
+  <p>
+    For voice input, Apple Speech converts your speech into text, subject to
+    the separate iOS microphone and speech-recognition permissions. Speech
+    recognition may involve processing outside your device; ESIVA does not
+    require exclusively on-device recognition. You can review and edit the
+    recognized text. Local typing and editing do not themselves send a request
+    to OpenAI.
+  </p>
+
+  <p>
+    When you submit a request for AI interpretation, ESIVA sends your reviewed
+    workout description directly from your iPhone to OpenAI's Responses API.
+    The request may also include clarification questions, your answers and
+    static ESIVA training vocabulary. OpenAI returns an interpretation of your
+    workout intent, a request for clarification or an indication that the
+    request cannot be supported.
+  </p>
+
+  <p>
+    This Voice Training request does not automatically include raw microphone
+    audio, stored Apple Health or HealthKit records, Recovery values, Training
+    Load values, current weight, age, your stored profile or workout history.
+    The text you choose to submit can nevertheless contain such information.
+    ESIVA builds the actual workout using its existing local training logic,
+    which may use Recovery, Training Load and other applicable local inputs.
+    Using that context locally does not add it to the OpenAI request.
+  </p>
+
+  <p>
+    Voice Training requests are configured with OpenAI response storage turned
+    off. This request setting does not guarantee zero provider retention or
+    the absence of operational logs. Provider processing is described in
+    section 10; local data lifecycles are described in section 12.
+  </p>
+
+  <h3>Separate consent and control</h3>
+
+  <p>
+    C7 is not requested during onboarding. If you select Describe by Voice
+    without a valid grant, ESIVA opens the Voice Training AI Processing
+    disclosure before microphone recording or speech recognition starts.
+    Its checkbox starts unchecked; Continue requires your explicit selection,
+    while Decline remains available. The screen also links to this policy.
+    For a typed request, consent is checked before external interpretation
+    and commercial admission, without blocking local typing or editing.
+  </p>
+
+  <p>
+    A grant must be saved and successfully read back before it authorizes
+    processing. Missing or invalid evidence, or a storage failure, does not
+    authorize a request. A successful grant resumes the original action once;
+    subsequent attempts proceed without another prompt while it remains
+    valid. Decline records your decision and closes the screen without
+    starting the pending recording or AI processing. You can try again after
+    declining or withdrawing: the same unchecked consent screen opens,
+    without requiring a visit to Settings.
+  </p>
+
+  <p>
+    Every new Voice Training AI request, including a retry, requires valid
+    C7 consent, valid C2 authorization and the applicable commercial
+    authorization. C7 does not replace or expand C2, grant paid access, or
+    authorize AI Nutrition or Story AI Processing. Declining C7 leaves other
+    training features available under their existing requirements.
+  </p>
+
+  <p>
+    In Settings → Consent Center, you can review your C7 status and disclosure,
+    withdraw consent or explicitly grant it again. Withdrawal prevents new
+    Voice Training AI requests until you grant consent again, either there
+    or directly from Voice Training. It does not change C1–C6, cancel a
+    subscription, automatically delete saved workouts or erase information
+    already processed by Apple Speech or sent to OpenAI. Withdrawal does not
+    affect the lawfulness of processing based on consent before withdrawal.
+  </p>
+
   <h2>6. Health Data and Advertising</h2>
 
   <p>
@@ -603,10 +707,12 @@
   <p>
     OpenAI receives the <a href="#ai-nutrition-processing">C2 AI Nutrition</a>
     requests and the separate optional <a href="#story-ai-processing">C6 Story
-    AI Processing</a> requests. Apple provides relevant device, Health and
-    App Store services. Website hosting and email infrastructure are separate
-    from these OpenAI flows; they do not imply an ESIVA server holding all of
-    your health data.
+    AI Processing</a> requests, as well as
+    <a href="#voice-training-ai-processing">C7 Voice Training AI Processing</a>
+    requests. Apple provides Apple Speech recognition and relevant device,
+    Health and App Store services. Website hosting and email infrastructure
+    are separate from these OpenAI flows; they do not imply an ESIVA server
+    holding all of your health data.
   </p>
 
   <p>
@@ -623,9 +729,9 @@
   </p>
 
   <p>
-    OpenAI processes the information needed to provide AI Nutrition and
-    optional Story AI Processing under the applicable service and
-    data-processing terms. This policy does not
+    OpenAI processes the information needed to provide AI Nutrition,
+    optional Story AI Processing and optional Voice Training AI Processing under the
+    applicable service and data-processing terms. This policy does not
     guarantee a particular provider retention period, processing location or
     automatic deletion of previously submitted requests.
   </p>
@@ -639,8 +745,8 @@
 
   <ul>
     <li>
-      Necessary contractual processing outside C2 and C6, where applicable, relies
-      on Article 6(1)(b). This includes recording acceptance of the Terms (C1)
+      Necessary contractual processing outside C2, C6 and C7, where applicable,
+      relies on Article 6(1)(b). This includes recording acceptance of the Terms (C1)
       and necessary service operations outside those consent-based purposes.
       C1 is not health-data consent.
     </li>
@@ -662,6 +768,12 @@
       personal data, explicit consent under Article 9(2)(a) is the additional
       condition. A photograph is not automatically health or biometric data
       simply because it shows a person.
+    </li>
+    <li>
+      C7 Voice Training AI Processing is a separate optional purpose based on
+      consent under Article 6(1)(a). Where the submitted description or answers
+      involve special-category personal data, including health information,
+      explicit consent under Article 9(2)(a) is the additional condition.
     </li>
   </ul>
 
@@ -790,6 +902,25 @@
         </td>
       </tr>
       <tr>
+        <th scope="row">C7 consent evidence</th>
+        <td>
+          A separate local Keychain record of the versioned Voice Training
+          consent decision, without an automatic calendar expiry.
+          Withdrawal updates the decision rather than deleting its evidence;
+          removing the App does not guarantee deletion of Keychain records.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Voice Training text and interpretation</th>
+        <td>
+          Used in the current workout-creation workflow, without a separate
+          archive of requests introduced by C7. Saved workouts remain subject
+          to their existing local lifecycles. Withdrawal does not automatically
+          delete saved workouts or information already processed by providers;
+          local limits do not determine Apple Speech or OpenAI retention.
+        </td>
+      </tr>
+      <tr>
         <th scope="row">C3 and C4 choices</th>
         <td>
           Independent values in local App settings, off when no choice is
@@ -831,7 +962,8 @@
   <p>
     Uninstalling ESIVA removes its active local App container; it is not a
     request or guarantee to delete Apple Health data, Keychain evidence,
-    CloudKit commercial records or information previously sent to OpenAI.
+    CloudKit commercial records or information already processed by Apple
+    Speech or sent to OpenAI.
     Device backups have a separate lifecycle. Provider retention and deletion
     depend on the applicable service, configuration and data-processing terms,
     not on the local limits above. CloudKit is described separately in section 10.
@@ -846,6 +978,7 @@
     <li>stop providing optional inputs;</li>
     <li>withdraw C2 consent, with the access consequences in section 5;</li>
     <li>independently withdraw or grant <a href="#story-ai-processing">C6 Story AI consent</a>;</li>
+    <li>independently withdraw or grant <a href="#voice-training-ai-processing">C7 Voice Training AI consent</a>;</li>
     <li>independently change your local C3 and C4 choices in Consent Center;</li>
     <li>delete confirmed meal groups or stop using ESIVA;</li>
     <li>

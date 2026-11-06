@@ -75,6 +75,8 @@
     section 5. The separate required C2 consent is explained in section 9.
     Optional Story AI Processing uses a separate C6 consent, as described in
     <a href="#story-ai-processing">section 5.1</a>.
+    Optional Voice Training AI Processing uses a separate C7 consent, as
+    described in <a href="#voice-training-ai-processing">section 5.2</a>.
   </p>
 
   <p>You agree not to:</p>
@@ -242,6 +244,41 @@
     explains C6 data processing, recipients, retention and your rights.
   </p>
 
+  <h2 id="voice-training-ai-processing" style="scroll-margin-top: 6rem;">5.2. Voice Training AI Processing (C7)</h2>
+
+  <p>
+    Voice Training is an optional AI-assisted feature for interpreting the
+    workout you request. You may describe it by voice or type a description.
+    Apple Speech converts voice input to text and may process it outside
+    your device. You can review and edit the text before submitting it to
+    OpenAI for interpretation. ESIVA builds the actual workout using its
+    existing local training logic.
+  </p>
+
+  <p>
+    Separate explicit Voice Training AI Processing consent (C7) is required
+    before voice recording and before external AI interpretation of a typed
+    request. The consent checkbox starts unchecked. Decline cancels the
+    pending attempt without recording or AI processing; you may try again
+    and grant consent directly from Voice Training. A successful grant
+    resumes the requested action. Local typing and editing remain available
+    without C7. Declining C7 does not disable other training features, which
+    remain subject to their existing requirements.
+  </p>
+
+  <p>
+    Each new Voice Training AI request requires valid C7 consent, valid C2
+    authorization and the applicable commercial authorization. C7 does not
+    replace C2, grant paid access or change subscription or purchase terms.
+    You can review, withdraw or grant C7 again in Settings → Consent Center.
+    Withdrawal prevents new Voice Training AI requests until you explicitly
+    grant consent again. It does not change C1–C6, cancel subscriptions,
+    automatically delete saved workouts or reverse processing already
+    completed. The
+    <a href="https://esiva.app/privacy/#voice-training-ai-processing">Privacy Policy</a>
+    explains the data shared, recipients and your rights.
+  </p>
+
   <h2>6. Device and System Requirements</h2>
 
   <p>
@@ -390,8 +427,9 @@
 
   <p>
     ESIVA relies on Apple for relevant platform services and uses OpenAI for
-    the AI Nutrition and separate optional Story AI Processing functions
-    described above.
+    the AI Nutrition, optional Story AI Processing and optional Voice Training
+    AI Processing functions described above. Apple Speech recognition is
+    separate from OpenAI interpretation.
     Availability of those services may affect ESIVA.
   </p>
 
