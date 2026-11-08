@@ -1,0 +1,40 @@
+/* A readable, responsive product overview; labels and future-feature links are live HTML. */
+.overview-hero{background:radial-gradient(ellipse at 80% 42%,#6e3c8b40,transparent 55%),linear-gradient(135deg,#081122,#132137 70%,#28203c)}
+.overview-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:clamp(35px,5vw,80px);align-items:center;padding-block:110px 55px}
+.overview-kicker{font-size:11px;font-weight:700;letter-spacing:.15em;color:#d3bded;margin:0 0 23px;line-height:1.5}
+.overview-hero h1{font-size:clamp(46px,4.55vw,72px);line-height:1.02;letter-spacing:-.055em}
+.overview-hero .lead{font-size:clamp(18px,1.5vw,22px);line-height:1.55;color:#ced8e2;margin:28px 0 0;max-width:570px}
+.overview-points{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:17px;max-width:560px}
+.overview-points li{display:flex;gap:14px;font-size:16px;line-height:1.5;color:#cbd5e1}
+.overview-points li>span{font-size:11px;letter-spacing:.06em;color:#b7dbd1;padding-top:4px;flex:none}
+.overview-points strong{color:#fff;font-weight:650}
+.overview-hero .overview-cta{display:inline-flex;align-items:center;justify-content:space-between;gap:25px;background:#efe5d6;color:#152e40;border-radius:28px;padding:15px 22px;font-size:15px;margin-top:30px;min-height:48px}
+.overview-cta:hover{background:#fff6e7}.overview-hero a:focus-visible{outline:3px solid #bcb3f2;outline-offset:5px}
+.overview-diagram{margin:0;min-width:0;padding:27px;border-radius:32px;background:linear-gradient(145deg,#a9bfcc,#90adbf);color:#314b61;border:1px solid #d8e5eb80;box-shadow:0 30px 75px #0003,inset 0 1px #fff5}
+.overview-diagram>figcaption{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:24px}
+.overview-diagram>figcaption>span{font-size:9px;letter-spacing:.13em;font-weight:750;line-height:1.5}
+.overview-diagram>figcaption>strong{font-size:23px;letter-spacing:-.035em;font-weight:650}
+.overview-cycle{position:relative;isolation:isolate;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:'signals balance' 'feedback hunger';gap:105px 55px}
+.overview-connectors{position:absolute;inset:0;width:100%;height:100%;z-index:-1;overflow:visible}
+.overview-connectors>path{fill:none;stroke:#425e71;stroke-width:2;vector-effect:non-scaling-stroke}
+.overview-node{position:relative;background:#fbf0de;padding:20px 17px 18px;border-radius:23px;box-shadow:0 5px 16px #2947550d;border:1px solid #fffc;min-width:0}
+.overview-icon{width:28px;height:28px;flex-shrink:0;color:#5b7789}
+.node-number{position:absolute;right:17px;top:22px;color:#879aa8;font-size:10px;letter-spacing:.08em}
+.overview-node h2{font-size:20px;line-height:1.15;letter-spacing:-.03em;margin:13px 0 9px;font-weight:750;color:#314b61}
+.overview-node p{font-size:13px;line-height:1.6;margin:0;color:#657b8c}
+.node-signals{grid-area:signals}.node-balance{grid-area:balance}.node-hunger{grid-area:hunger}.node-feedback{grid-area:feedback}
+.overview-hub{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:118px;height:118px;border-radius:50%;background:#edf1f3;border:6px solid #b5c9d4;box-shadow:0 0 0 1px #ecf4f780,0 7px 22px #37556c16;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.overview-hub img{width:42px;height:42px;border-radius:12px}.overview-hub strong{font-size:12px;letter-spacing:.1em}.overview-hub>span{font-size:7px;letter-spacing:.09em;color:#6a7b91}
+.overview-future{margin-top:22px;padding:18px 16px 14px;background:#efe9f3;border:1px solid #fff7;border-radius:20px}
+.future-label{display:block;font-size:8px;letter-spacing:.12em;font-weight:750;color:#75638b;margin-bottom:12px}
+.overview-future-links{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.overview-future-links a{display:flex;align-items:flex-start;gap:10px;text-decoration:none;color:#4b486b;border-radius:5px}
+.overview-future-links .overview-icon{width:21px;height:21px;color:#9181a9}
+.overview-future-links strong{font-size:14px;font-weight:700;line-height:1.35;display:block}
+.overview-future-links small{display:block;font-size:11px;line-height:1.45;color:#7b7390;margin-top:5px}
+.overview-future-links sup{color:#8b5e9b;margin-left:2px}
+.overview-future-note{display:block;margin-top:14px;padding-top:11px;border-top:1px solid #8b779b25;font-size:11px;line-height:1.55;color:#675779;text-decoration:underline;text-underline-offset:3px}
+.overview-future a:hover{color:#783184}
+@media(max-width:1100px){.overview-layout{gap:35px}.overview-diagram{padding:20px}.overview-cycle{column-gap:35px}.overview-node{padding:17px 13px}.overview-node h2{font-size:18px}.overview-diagram>figcaption>strong{font-size:20px}.overview-future{padding:15px 12px}.overview-future-links{gap:12px}.overview-future-links a{gap:6px}.overview-points li{font-size:15px}}
+@media(max-width:980px){.overview-layout{grid-template-columns:1fr;gap:40px}.overview-hero .hero-copy{max-width:650px}.overview-diagram{max-width:650px;width:100%;margin:auto}.overview-hero h1{font-size:clamp(43px,7.5vw,65px)}.overview-cycle{column-gap:65px}.overview-node{padding:22px}.overview-node h2{font-size:23px}.overview-node p{font-size:14px}}
+@media(max-width:620px){.overview-hero .section-inner{padding-top:145px;padding-bottom:55px}.overview-hero h1{font-size:clamp(39px,10vw,56px)}.overview-hero .lead{font-size:18px;margin-top:22px}.overview-kicker{font-size:9px;margin-bottom:19px}.overview-points{gap:15px;margin-top:24px}.overview-points li{font-size:15px}.overview-diagram{padding:17px 13px;border-radius:25px}.overview-diagram>figcaption{gap:10px;margin-bottom:18px}.overview-diagram>figcaption>strong{font-size:18px}.overview-diagram>figcaption>span{font-size:8px}.overview-cycle{gap:90px 28px}.overview-node{padding:15px 10px;border-radius:17px}.overview-node h2{font-size:16px;line-height:1.2;margin-top:12px}.overview-node p{font-size:10px;line-height:1.5}.overview-icon{width:23px;height:23px}.node-number{right:11px;top:18px;font-size:8px}.overview-hub{width:91px;height:91px;border-width:4px}.overview-hub img{width:32px;height:32px;border-radius:9px}.overview-hub strong{font-size:10px}.overview-hub>span{font-size:6px}.overview-future-links{grid-template-columns:1fr;gap:15px}.overview-future-links strong{font-size:13px}.overview-future-links small{font-size:11px}.overview-future-note{font-size:11px}.overview-future{padding:16px 13px}.future-label{font-size:9px}}

@@ -69,3 +69,13 @@ Owner requested replacing Next and Adapt while retaining chapter numbering. Sect
 - The two replaced screenshots remain archived in assets and the source manifest. There are 22 active original screenshots plus one generated future concept. All original source hashes retained.
 - Browser widths 1440, 1024, 390 and 320px: no horizontal overflow or clipped copy; all new images load. Music/Journey desktop and the mobile rewards/availability text visually inspected. Warning/error log empty. Local-link, source-hash, protected-ref and diff checks pass. No push, deployment, CNAME or public-maintenance change.
 - Screenshots: `qa/esiva-adaptive-music.jpg`, `qa/esiva-journey-concept.jpg` in the working folder.
+
+## Closed-loop product overview hero — 2026-11-08
+
+Replaced “Your day, already figured out” with “Your weight goals. One connected loop.” The opening screen now introduces closed-loop weight management with three short points: daily food/activity balance, early hunger forecasts and adaptation from feedback.
+
+The overview is a responsive live HTML/SVG illustration in the app’s cream, blue-grey and lavender palette, with the original ESIVA artwork at its center. Directional arrows connect signals → balance → hunger guidance → feedback. Editable text and real links are used instead of flattening the explanation into a raster image. Source: `index.html` and `assets/css/product-overview.css`.
+
+Journey and contributor rewards appear in a separate “Coming next” panel, with asterisks and working links to section 05. A linked note explicitly states that both are in development. “Find your daily balance” still opens section 01. Chapter numbering and common navigation are unchanged. The previous hero screenshot is archived in the source manifest and remains on disk.
+
+Browser checks: 1440×900, 1024×768, 768×1024, 390×844 and 320×740, with no page overflow or clipped labels. Desktop and mobile diagram visually inspected. Journey link and primary CTA exercised and verified at their respective destinations. Browser warning/error log empty. Local asset/link, original image hash and protected-branch checks pass. Screenshot: working-folder `qa/esiva-closed-loop-overview.jpg`.
