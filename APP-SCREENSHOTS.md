@@ -48,3 +48,12 @@ Added two chapters immediately after the hero, before Morning. The hero now intr
 - Three additional originals copied without modification; 22 app images now used once each. Existing screenshots and favicon preserved. Chapter numbering updated.
 - Browser checks at 1440×900, 1024×768, 390×844 and 320×740: no horizontal overflow, no clipped copy, all three new images loaded. Desktop balance/hunger and mobile hunger text visually inspected. Browser warning/error log empty. Local-link, image, source-hash and protected-ref checks pass.
 - Local screenshots: `qa/esiva-balance.jpg`, `qa/esiva-hunger-forecast.jpg` in the working folder. No publication or remote push.
+
+## Shared navigation and Contact — 2026-11-08
+
+- All six HTML pages now share the exact header/footer navigation: Product, FAQ, Terms, Privacy, Contact. Food AI and Programs remain product sections but are removed from navigation.
+- Every footer identifies Nordic Labs Tech Oy, Finland, Y-tunnus 3668654-2. Contact also shows the confirmed business ID in its company information.
+- Contact was already pointing at the local `/support/` route; its presentation had not been updated with the product redesign. Refreshed that page with the new artwork and common styling. Existing contact email addresses retained.
+- Versioned page links and shared stylesheet URLs prevent previously cached HTML/CSS from reappearing when navigating. Local preview server also sends no-store headers. No live-site changes.
+- All five menu items remain visible at 320px; no horizontal overflow on any of the six routes. Browser-tested Product → Contact → Product, with return to the current hunger-forecast product page. Footer/company details visually inspected on mobile; Contact inspected on desktop. Warning/error log empty.
+- Static checks confirm identical five-link menus, resolving local assets/links and business ID on every page. FAQ, Terms and Privacy article bodies match the previous commit exactly. CNAME, main and maintenance unchanged.

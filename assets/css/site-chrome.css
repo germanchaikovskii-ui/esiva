@@ -1,0 +1,41 @@
+/* Identical navigation and company identity across every ESIVA route. */
+.site-header{background:rgba(8,10,34,.9);border-color:#ffffff24}
+.brand img{border-radius:23%;box-shadow:0 0 18px #ee00be22}
+.site-nav a{color:#e0dce9}
+.site-nav a[aria-current=page]{color:#fff;background:#ffffff15}
+.site-footer{display:flex;flex-direction:column;align-items:center;gap:24px;margin:80px auto 0;padding:30px 0 36px;border-top:1px solid #ffffff26;color:#c7c4d9}
+.site-footer nav{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 25px}
+.site-footer nav a{font-size:13px;text-decoration:none;min-height:40px;display:inline-flex;align-items:center}
+.site-footer nav a:hover{color:#fff;text-decoration:underline;text-underline-offset:4px}
+.site-footer a:focus-visible{outline:2px solid currentColor;outline-offset:5px;border-radius:2px}
+.site-footer .company-details{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center;margin:0;font-size:12px;line-height:1.5}
+.site-footer .company-details strong{font-size:15px;font-weight:600}
+.site-footer .company-details span{margin:0;width:auto}
+.site-footer.info-footer{margin-top:0;color:#53556b;border-color:#14143220}
+.site-footer.info-footer a:hover{color:#801c8f}
+.info-page{background:radial-gradient(ellipse at 90% 0,#e8c8e580,transparent 40%),#edf0ed}
+.info-eyebrow,.contact-card span{color:#89318f}
+.contact-route .info-article{background:linear-gradient(135deg,#fffdfcf0,#f6edf8e8);border-color:#9c6da825}
+.contact-brand{display:flex;align-items:center;gap:15px;margin-bottom:35px}
+.contact-brand img{border-radius:23%;box-shadow:0 12px 30px #9c328b20}
+.contact-brand>span{font-size:21px;font-weight:650;letter-spacing:.12em;line-height:1.3}
+.contact-brand small{font-size:9px;letter-spacing:.1em;color:#717383;font-weight:550}
+.contact-card{border-color:#b89cbd35;background:#fff9}
+.contact-card:hover{box-shadow:0 22px 50px #843a7a14}
+@media(max-width:620px){
+ .site-header{flex-direction:column;gap:5px;border-radius:24px;padding:10px 8px 7px}
+ .site-header .site-nav{display:flex;width:100%;justify-content:space-evenly;gap:0}
+ .site-header .site-nav a{display:inline-flex!important;min-height:36px;padding:8px 7px;font-size:11px}
+ .site-header .brand{gap:8px;font-size:12px}
+ .site-header .brand img{width:28px;height:28px}
+ .info-main{padding-top:140px}
+ .hero .section-inner{padding-top:145px}
+ section[id]{scroll-margin-top:120px}
+ .site-footer nav{gap:5px 17px}
+ .site-footer nav a{font-size:12px}
+ .site-footer{margin-top:55px;gap:20px}
+ .contact-brand{margin-bottom:28px}.contact-brand img{width:50px;height:50px}
+ .contact-brand>span{font-size:18px}
+}
+
+.business-id{white-space:nowrap}
