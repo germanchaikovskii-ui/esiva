@@ -1,0 +1,38 @@
+[
+  {
+    "id": "outfit-women-open",
+    "prompt": "Precise product photo edit. Remove ONLY the two hanging hoodie drawstrings, their tips and eyelets, seamlessly restoring plain black fabric underneath. Keep the zipper and its edges intact. Do not remove the jogger waistband drawstrings. Preserve exactly the person, face, body, pose, garment silhouette, folds, open/closed zipper state, lighting, background and square full-body composition, same pixel alignment and framing. No logos or text. The result must be the same photo with a clean drawstring-free hood and chest.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/merch/outfit-women-open.webp"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-85ed5b49-6873-4287-9746-601e2533a53a.png"
+  },
+  {
+    "id": "outfit-men-open",
+    "prompt": "Precise product photo edit. Remove ONLY the two hanging hoodie drawstrings, their tips and eyelets, seamlessly restoring plain black fabric underneath. Keep the zipper and its edges intact. Do not remove the jogger waistband drawstrings. Preserve exactly the person, face, body, pose, garment silhouette, folds, open/closed zipper state, lighting, background and square full-body composition, same pixel alignment and framing. No logos or text. The result must be the same photo with a clean drawstring-free hood and chest.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/merch/outfit-men-open.webp"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-51414ba0-0b2f-416d-bea0-5b391d3ea6c6.png"
+  },
+  {
+    "id": "outfit-women-closed",
+    "prompt": "Precise product photo edit. Remove ONLY the two hanging hoodie drawstrings, their tips and eyelets, seamlessly restoring plain black fabric underneath. Keep the zipper and its edges intact. Do not remove the jogger waistband drawstrings. Preserve exactly the person, face, body, pose, garment silhouette, folds, open/closed zipper state, lighting, background and square full-body composition, same pixel alignment and framing. No logos or text. The result must be the same photo with a clean drawstring-free hood and chest.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/merch/outfit-women-closed.webp"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-f49339bc-1fe1-47c4-89cb-99d6851622d5.png"
+  },
+  {
+    "id": "outfit-men-closed",
+    "prompt": "Precise product photo edit. Remove ONLY the two hanging hoodie drawstrings, their tips and eyelets, seamlessly restoring plain black fabric underneath. Keep the zipper and its edges intact. Do not remove the jogger waistband drawstrings. Preserve exactly the person, face, body, pose, garment silhouette, folds, open/closed zipper state, lighting, background and square full-body composition, same pixel alignment and framing. No logos or text. The result must be the same photo with a clean drawstring-free hood and chest.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/merch/outfit-men-closed.webp"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-ef2eef34-d080-44da-b7b7-623da2977f03.png"
+  }
+]

@@ -88,7 +88,7 @@
     preview.dataset.presentation = state.presentation;
     const file = `${state.presentation === 'model' ? 'model-' : ''}${state.collection}-${state.garment === 'tee' ? `tee-${state.view}` : state.garment}.webp`;
     const outfitFile = outfitStyle === 'basic' ? `model-${state.collection}-joggers.webp` : `outfit-${state.collection}-${outfitStyle}.webp`;
-    const src = assets + (outfit ? outfitFile : file);
+    const src = assets + (outfit ? outfitFile : file) + (outfit && outfitStyle !== 'basic' ? '?v=cordless-20261108' : '');
     const current = ++revision;
     if (garment.getAttribute('src') !== src) {
       preview.classList.add('is-loading');

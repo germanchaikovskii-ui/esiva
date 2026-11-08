@@ -63,3 +63,10 @@ Then open http://127.0.0.1:8082/merch/ . Keep the terminal running while testing
 - Browser checks covered all eight inclusion combinations on both models, independent brand restoration while switching items, reload persistence, back-slogan transitions and keyboard checkbox toggling. Responsive checks at 320, 390 and 1024 pixels found no horizontal overflow. No console errors or warnings observed. Local asset/link and Git whitespace checks pass.
 - Local preview: http://127.0.0.1:8081/merch/?v=full-outfit&presentation=outfit&include_hoodie=1&tee_brand=mascot&joggers_brand=wordmark&hoodie_brand=emblem
 - No ordering or payment flow; no push or public deployment. Protected branches and CNAME remain unchanged.
+
+## Mobile navigation and chest placement correction — 8 November 2026
+
+- Mobile header links now center their labels within 44-pixel touch targets. The visible active/hover background is 32 pixels high with an 8-pixel corner radius, shared across all routes.
+- Removed hoodie drawstrings from all four full-outfit photographs with the built-in image editing tool; existing Product and On model assets remain unchanged. Prompts and source paths are recorded in [OUTFIT-CORDLESS-SOURCES.json](assets/images/merch/OUTFIT-CORDLESS-SOURCES.json).
+- Moved all three full-outfit hoodie designs inward toward the chest for both open and closed hoodies. Cache versions updated for the shared navigation, configurator and edited photos.
+- Verified all six menu destinations at 320 and 390 pixels, centered 32-pixel highlights with 44-pixel hit areas and no horizontal overflow. Checked both models × open/closed hoodie × three prints (12 combinations), inspected desktop and mobile previews, and confirmed no console warnings/errors. JavaScript syntax, local links/assets and Git whitespace checks pass.

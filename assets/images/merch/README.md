@@ -19,3 +19,5 @@ Product-mode hoodie prints are shifted outward to 64% of the preview width to cl
 ## Full outfit update
 
 Four additional full-body three-quarter photographs use the established male and female models: open full-zip hoodie over a plain black T-shirt, and closed hoodie, each with black training pants. Final files are `outfit-women-open.webp`, `outfit-women-closed.webp`, `outfit-men-open.webp` and `outfit-men-closed.webp`. Exact built-in image-generation prompts, references and generated source paths are in OUTFIT-SOURCES.json. Existing full-body training-pants models are reused when the hoodie is excluded. Independent live print layers are calibrated for each garment; prints are not baked into the photos. Original assets are preserved. PNG-to-WebP optimization only.
+
+The four full-outfit photographs were subsequently edited to remove only hoodie drawstrings and their fittings, preserving the models and framing. Exact edit prompts and generated paths: OUTFIT-CORDLESS-SOURCES.json. PNG-to-WebP optimization only. The earlier photographs remain recoverable from Git; standalone Product and On model images are unchanged.
