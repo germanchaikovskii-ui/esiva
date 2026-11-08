@@ -1,0 +1,154 @@
+{
+  "daily-plan": {
+    "src": "/assets/images/app/daily-plan.jpeg",
+    "alt": "Trainings and meals in the daily plan",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/4/43C1C1BF-580F-48B1-81BB-996690F46AD0_4_5005_c.jpeg",
+    "sha256": "e942244ec037b923535a47f2b1433f5704796e0ba45a2cb2bbf97a8c88d45215"
+  },
+  "readiness": {
+    "src": "/assets/images/app/readiness.jpeg",
+    "alt": "Recovery, training load and daily workout target",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/3/3AA18C12-1AA9-48CE-95D9-2FE6865D0C03_4_5005_c.jpeg",
+    "sha256": "d12d2516e55a732480f5a89275a65ae206a3ac5ee9c733136f91441f246e0a20"
+  },
+  "meal-targets": {
+    "src": "/assets/images/app/meal-targets.jpeg",
+    "alt": "Daily food target and planned meals",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/2/22F7E583-6E07-4525-AF24-ADEDB68BC30A_4_5005_c.jpeg",
+    "sha256": "d64bba1ab3e66214d210a6d23d4768fa7a4f7e4a53186eccc5d6141d6bd06152"
+  },
+  "meal-suggestion": {
+    "src": "/assets/images/app/meal-suggestion.jpeg",
+    "alt": "Suggested breakfast with nutrient targets",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/D/D8433931-BEAB-48E4-BB48-55408AE7B0C6_4_5005_c.jpeg",
+    "sha256": "c9b2d50a9707fee9ec1e9544df9e9a4c47a7a301a117ee34c879912fbe5c50e9"
+  },
+  "daily-timeline": {
+    "src": "/assets/images/app/daily-timeline.jpeg",
+    "alt": "Timeline connecting meals, training and body signals",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/4/46047597-DF31-4E6D-BE7F-380F37E9EC81_4_5005_c.jpeg",
+    "sha256": "45af9f874c7c4a2af72d8238580433cffebcc8bf9a7a653a3c325ba05555e1a0"
+  },
+  "adaptive-target": {
+    "src": "/assets/images/app/adaptive-target.jpeg",
+    "alt": "Workout target factors and training consistency",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/4/4AD6AF04-B377-4F41-9FEB-D1C9590D2AAD_4_5005_c.jpeg",
+    "sha256": "813665e25ebf8b2e7dfab8b308f32eddf30a7d8d1e0c62bbccd37f7a5a723b38"
+  },
+  "connected-day": {
+    "src": "/assets/images/app/connected-day.jpeg",
+    "alt": "Planned meals alongside muscle status and today’s focus",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/0/0B71C9FE-966D-46F2-B916-2206989B6432_4_5005_c.jpeg",
+    "sha256": "e02291ad9253d4ab21905f98c5cf2bad11eaf275b278a7c6218f199722900f36"
+  },
+  "food-recognition": {
+    "src": "/assets/images/app/food-recognition.jpeg",
+    "alt": "Food logging by photo, voice or text",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/7/73861EBB-AF76-4138-9D9F-AC59A020A46B_4_5005_c.jpeg",
+    "sha256": "8f469662e69c126b6175d002fe0c92b39820987671209a06bb6cbb64ebc809c6"
+  },
+  "muscle-map-blue": {
+    "src": "/assets/images/app/muscle-map-blue.jpeg",
+    "alt": "Front and back muscle status with recovery and load",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/7/7B487C15-A258-4FB7-850E-9A37ED818CCC_4_5005_c.jpeg",
+    "sha256": "3250decfa2723085e900df17473bc75f0aa2dc0f8c13dc5f29a4f0f893d8eca6"
+  },
+  "muscle-selection": {
+    "src": "/assets/images/app/muscle-selection.jpeg",
+    "alt": "Custom workout selection of primary muscle groups",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/1/1B120389-5038-4D52-ACCB-3D8B9B80FE2B_4_5005_c.jpeg",
+    "sha256": "5dd4353d2611299d718a4405d0f102c656d21bf180184832bafb624b4fa0d107"
+  },
+  "muscle-map-peach": {
+    "src": "/assets/images/app/muscle-map-peach.jpeg",
+    "alt": "Muscle status in the peach appearance theme",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/3/317B072C-40EA-431B-9AAF-40F4FCF93634_4_5005_c.jpeg",
+    "sha256": "bb85643eb1f7ac6bf2e4fc8f0570db379af519090e662239eacd6bbc3decf3fa"
+  },
+  "training-calendar": {
+    "src": "/assets/images/app/training-calendar.jpeg",
+    "alt": "Training calendar and completed workout targets",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/9/933A7241-8B8F-43AE-BA31-77CD37EC30AC_4_5005_c.jpeg",
+    "sha256": "c66cb5b4eab43ddbc8fc9ade9995cbd58b13ebd33d5bc09070bc987cafd4154c"
+  },
+  "arc-progress": {
+    "src": "/assets/images/app/arc-progress.jpeg",
+    "alt": "ARC Engine pattern-learning visualization",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/C/C438AFC3-E015-4936-88F6-1054D8863B59_4_5005_c.jpeg",
+    "sha256": "451128fd71540dd7cffdd805f43844b0b36815f6601e723f683cee2c5d0355bd"
+  },
+  "live-workout": {
+    "src": "/assets/images/app/live-workout.jpeg",
+    "alt": "Live exercise guidance and muscle load",
+    "width": 603,
+    "height": 1304,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/3/3A383270-87A8-4176-844F-502F02CEF8F6_1_105_c.jpeg",
+    "sha256": "4ba35d00901a5346ca4b323578d11e3a05464b7f372139fdb26d7263fd133405"
+  },
+  "watch-floor": {
+    "src": "/assets/images/app/watch-floor.png",
+    "alt": "Apple Watch exercise animation and target heart-rate zone",
+    "width": 416,
+    "height": 496,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/originals/1/1296704E-BA34-446A-97BC-3907480417E0.png",
+    "sha256": "3cb1233a0b8457f24ec24eb9b2e70f8809268118fe229d69d315bbea8e97e9e5"
+  },
+  "watch-running": {
+    "src": "/assets/images/app/watch-running.png",
+    "alt": "Apple Watch running guidance with target and current heart rate",
+    "width": 416,
+    "height": 496,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/originals/0/01B46FE5-045C-4962-A886-2D731FD2DE39.png",
+    "sha256": "273b91c16974eb9706fde8ec9ad7edc9a3ac096b75888233b76bf35a450848e3"
+  },
+  "training-options": {
+    "src": "/assets/images/app/training-options.jpeg",
+    "alt": "Voice Training, Custom Training and Training Programs",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/3/377D71F6-8236-49F2-9493-DD79091A910C_4_5005_c.jpeg",
+    "sha256": "40f402c482da552aa5dc8b12d7fecd2e4b537cbc9c70724af3cd59c47264d867"
+  },
+  "program-types": {
+    "src": "/assets/images/app/program-types.jpeg",
+    "alt": "Cardio, Exercise, Pure Gym and Yoga program options",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/D/DBBCD62B-8987-4B68-BBC9-08A9DEF350B5_4_5005_c.jpeg",
+    "sha256": "07415f2a506bb926d0d47bf0527cfe09978476ab1d08d83bf8ebc8970b37b004"
+  },
+  "exercise-session": {
+    "src": "/assets/images/app/exercise-session.jpeg",
+    "alt": "Exercise sequence with demonstrations, intervals and rest",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/8/80A7A2F4-FE65-4EB9-B4E6-E7CA815C24A6_4_5005_c.jpeg",
+    "sha256": "111762b32068f6cf5695f7aff65632a107553b914f880a6cff8f68aef7425b5d"
+  }
+}
