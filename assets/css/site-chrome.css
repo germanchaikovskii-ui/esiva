@@ -52,3 +52,6 @@
  .site-header .site-nav a[aria-current=page]::before{background:#ffffff15}
  .site-header .site-nav a:hover::before{background:#ffffff17}
 }
+
+.site-footer .company-details strong a{color:inherit;text-decoration:none}
+.site-footer .company-details strong a:hover{text-decoration:underline;text-underline-offset:4px}
