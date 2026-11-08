@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merch Shop — ESIVA</title>
+<meta name="description" content="Make ESIVA your own. Explore black T-shirts, training pants and full-zip hoodies for men and women. Choose your emblem, wordmark or mascot and personalize your T-shirt back print.">
+<link rel="icon" type="image/svg+xml" href="/assets/images/brand/esiva-favicon.svg?v=20261108">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/brand/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/css/styles.css?v=20261108-nav">
+<link rel="stylesheet" href="/assets/css/site-chrome.css?v=20261108-merch">
+<link rel="stylesheet" href="/assets/css/merch.css?v=20261108-merch">
+<script src="/assets/js/merch.js?v=20261108-merch" defer></script>
+</head>
+<body class="merch-page">
+<header class="site-header">
+  <a class="brand" href="/?v=20261108-nav" aria-label="ESIVA home">
+    <img src="/assets/images/brand/esiva-logo.jpg" alt="" width="30" height="30">
+    <span>ESIVA</span>
+  </a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="/?v=20261108-nav">Product</a>
+    <a href="/merch/?v=20261108-merch" aria-current="page">Merch Shop</a>
+    <a href="/faq/?v=20261108-nav">FAQ</a>
+    <a href="/terms/?v=20261108-nav">Terms</a>
+    <a href="/privacy/?v=20261108-nav">Privacy</a>
+    <a href="/support/?v=20261108-nav">Contact</a>
+  </nav>
+</header>
+<main class="merch-main" id="main">
+<div class="merch-intro">
+ <div><p class="merch-eyebrow">ESIVA / Merch Shop</p><h1>Wear your kind<br><span>of progress.</span></h1></div>
+ <p>Three black essentials. Your signature.<br>Make the collection your own.</p>
+</div>
+<noscript><p class="merch-noscript">Enable JavaScript to change garments, front designs and back prints in the configurator.</p></noscript>
+<div class="merch-configurator" data-configurator id="design-studio">
+ <div class="preview-column">
+  <div class="product-preview" data-garment="tee" data-collection="women" data-brand="emblem" data-view="front" role="group" aria-label="Women’s black T-shirt with pink ESIVA emblem. Design visualization.">
+   <div class="preview-topline" aria-hidden="true"><span>ESIVA</span><span id="preview-view">Chest detail</span></div>
+   <div class="garment-stack" aria-hidden="true">
+    <img class="garment-image" id="garment-image" src="/assets/images/merch/women-tee-front.webp" alt="" width="1280" height="1280" fetchpriority="high">
+    <div class="print-layer"><img id="print-image" src="/assets/images/brand/esiva-logo.jpg" alt=""><span class="print-wordmark" id="print-wordmark" hidden>ESIVA</span></div>
+   </div>
+   <div class="preview-bottomline"><span aria-hidden="true"><i class="color-dot"></i>Always black.</span><div class="view-controls" id="view-controls" role="group" aria-label="T-shirt view"><button type="button" data-view="front" aria-pressed="true">Front</button><button type="button" data-view="back" aria-pressed="false">Back</button></div></div>
+  </div>
+  <p class="preview-note">Design visualization · Print size and placement are illustrative.</p>
+ </div>
+ <div class="config-panel">
+  <div class="config-heading"><div><p id="collection-label">Women’s collection</p><h2 id="product-name">T-shirt</h2></div><span class="studio-badge">Design studio</span></div>
+  <fieldset><legend><span class="step">01</span> Your collection</legend><div class="option-row"><label class="choice"><input type="radio" name="collection" value="women" checked><span>Women</span></label><label class="choice"><input type="radio" name="collection" value="men"><span>Men</span></label></div></fieldset>
+  <fieldset><legend><span class="step">02</span> Your essential</legend><div class="option-row three garment-choices"><label class="choice"><input type="radio" name="garment" value="tee" checked><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m13 7-8 4-3 9 7 3 3-5v22h24V18l3 5 7-3-3-9-8-4c-1 7-21 7-22 0Z"/></svg>T-shirt</span></label><label class="choice"><input type="radio" name="garment" value="joggers"><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M13 5h22l3 36H27l-3-24-3 24H10L13 5Z"/><path d="M13 10h22M24 10v7M16 11l-4 8m20-8 4 8"/></svg>Training pants</span></label><label class="choice"><input type="radio" name="garment" value="hoodie"><span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M17 12c-3-14 17-14 14 0l7 4 7 23-8 2-4-19v20H15V22l-4 19-8-2 7-23 7-4Z"/><path d="M24 13v29M17 12l7 5 7-5M18 31v6h4m8-6v6h-4"/></svg>Full-zip hoodie</span></label></div></fieldset>
+  <fieldset><legend><span class="step">03</span> Your signature <small id="front-placement">On the left chest</small></legend><div class="option-row three brand-choices"><label class="choice"><input type="radio" name="brand" value="emblem" checked><span><img class="brand-thumb emblem-thumb" src="/assets/images/brand/esiva-logo.jpg" alt="" width="33" height="33">Pink emblem</span></label><label class="choice"><input type="radio" name="brand" value="wordmark"><span><b class="wordmark-thumb" aria-hidden="true">ESIVA</b>White wordmark</span></label><label class="choice"><input type="radio" name="brand" value="mascot"><span><img class="brand-thumb" src="/assets/images/merch/mascot.webp" alt="" width="36" height="33">ESIVA mascot</span></label></div></fieldset>
+  <fieldset id="back-options"><legend><span class="step">04</span> Say it on the back <small>T-shirt only</small></legend><div class="slogan-options"><label class="choice"><input type="radio" name="slogan" value="app" checked><span>My app made me do it.</span></label><label class="choice"><input type="radio" name="slogan" value="track"><span>I don’t guess. I track.</span></label><label class="choice"><input type="radio" name="slogan" value="source"><span>My body is a data source.</span></label><label class="choice"><input type="radio" name="slogan" value="numbers"><span>I sweat in numbers.</span></label><label class="choice"><input type="radio" name="slogan" value="knows"><span>My app knows too much.</span></label><label class="choice"><input type="radio" name="slogan" value="data"><span>I don’t sweat. I collect data.</span></label></div></fieldset>
+  <div class="design-recap"><p>Your design</p><p id="design-summary">Women’s black T-shirt · Pink emblem · Back: “My app made me do it.”</p><a class="mobile-preview-link" href="#design-studio">View your design ↑</a><div class="design-actions"><button class="copy-design" id="copy-design" type="button">Copy design link ↗</button><button class="reset-design" id="reset-design" type="button">Reset</button></div><div id="link-fallback" hidden><label for="look-link">Your design link</label><input id="look-link" type="text" readonly></div></div>
+ </div>
+ <p class="merch-sr-only" id="design-status" role="status" aria-live="polite" aria-atomic="true"></p>
+</div>
+<section class="merch-gallery" aria-labelledby="slogan-title">
+ <div class="gallery-heading"><div><p class="merch-eyebrow">The back-print collection</p><h2>A little data.<br>A lot of personality.</h2></div><p>Pick your line. Put it on your T-shirt.<br>Six ways to say it your way.</p></div>
+ <div class="slogan-gallery"><button class="slogan-tile" type="button" data-slogan-pick="app" aria-label="Preview My app made me do it. on a T-shirt"><img src="/assets/images/merch/slogan-app.webp" alt="My app made me do it." loading="lazy" width="420" height="280"><span>Try this back print</span></button><button class="slogan-tile" type="button" data-slogan-pick="track" aria-label="Preview I don’t guess. I track. on a T-shirt"><img src="/assets/images/merch/slogan-track.webp" alt="I don’t guess. I track." loading="lazy" width="420" height="280"><span>Try this back print</span></button><button class="slogan-tile" type="button" data-slogan-pick="source" aria-label="Preview My body is a data source. on a T-shirt"><img src="/assets/images/merch/slogan-source.webp" alt="My body is a data source." loading="lazy" width="420" height="280"><span>Try this back print</span></button><button class="slogan-tile" type="button" data-slogan-pick="numbers" aria-label="Preview I sweat in numbers. on a T-shirt"><img src="/assets/images/merch/slogan-numbers.webp" alt="I sweat in numbers." loading="lazy" width="420" height="280"><span>Try this back print</span></button><button class="slogan-tile" type="button" data-slogan-pick="knows" aria-label="Preview My app knows too much. on a T-shirt"><img src="/assets/images/merch/slogan-knows.webp" alt="My app knows too much." loading="lazy" width="420" height="280"><span>Try this back print</span></button><button class="slogan-tile" type="button" data-slogan-pick="data" aria-label="Preview I don’t sweat. I collect data. on a T-shirt"><img src="/assets/images/merch/slogan-data.webp" alt="I don’t sweat. I collect data." loading="lazy" width="420" height="280"><span>Try this back print</span></button></div>
+</section>
+<div class="merch-outro"><p>Explore the collection and save your favourite combination.<br>This is a design preview. Ordering is not open yet.</p><a href="/?v=20261108-merch">Discover the ESIVA app ↗</a></div>
+</main>
+<footer class="site-footer">
+  <nav aria-label="Footer navigation">
+    <a href="/?v=20261108-nav">Product</a>
+    <a href="/merch/?v=20261108-merch" aria-current="page">Merch Shop</a>
+    <a href="/faq/?v=20261108-nav">FAQ</a>
+    <a href="/terms/?v=20261108-nav">Terms</a>
+    <a href="/privacy/?v=20261108-nav">Privacy</a>
+    <a href="/support/?v=20261108-nav">Contact</a>
+  </nav>
+  <p class="company-details"><strong>Nordic Labs Tech Oy</strong><span>Finland · Y-tunnus 3668654-2</span><span>© 2026 Nordic Labs Tech Oy</span></p>
+</footer>
+</body>
+</html>

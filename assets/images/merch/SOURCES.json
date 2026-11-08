@@ -1,0 +1,143 @@
+[
+  {
+    "id": "women-tee-front",
+    "prompt": "Use case: product-mockup. Asset: transparent product cutout for an interactive ESIVA apparel configurator. Create a premium photorealistic ecommerce studio photograph of a black short-sleeve crew-neck athletic T-shirt, FRONT view, visible round collar, gently fitted women's silhouette, defined waist, normal full length not cropped. Invisible mannequin, NO person, no hanger, no background. Exactly straight-on, perfectly centered, balanced sleeves or legs, garment fills about 84% of square canvas height with small equal top and bottom margins. Whole garment visible. Matte jet-black fine cotton knit with subtle realistic folds, seams and tactile detail, soft broad studio light defining the black silhouette. Keep upper chest / thigh surface smooth for a separate small branding overlay. Entire garment totally blank: NO logos, NO letters, NO artwork, NO labels, no props. Genuine transparent background. Square canvas.",
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-6f15f32d-d407-4029-a046-2670d174fe2e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-6f15f32d-d407-4029-a046-2670d174fe2e.png",
+    "output": "assets/images/merch/women-tee-front.webp"
+  },
+  {
+    "id": "women-tee-back",
+    "prompt": "Use case: product-mockup. Asset: transparent product cutout for an interactive ESIVA apparel configurator. Create a premium photorealistic ecommerce studio photograph of a black short-sleeve crew-neck athletic T-shirt, BACK view, high back neckline, gently fitted women's silhouette, defined waist, normal full length not cropped. Invisible mannequin, NO person, no hanger, no background. Exactly straight-on, perfectly centered, balanced sleeves or legs, garment fills about 84% of square canvas height with small equal top and bottom margins. Whole garment visible. Matte jet-black fine cotton knit with subtle realistic folds, seams and tactile detail, soft broad studio light defining the black silhouette. Keep upper chest / thigh surface smooth for a separate small branding overlay. Entire garment totally blank: NO logos, NO letters, NO artwork, NO labels, no props. Genuine transparent background. Square canvas.",
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-cf1e7447-098a-4762-b96e-2e403b0a8894.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-cf1e7447-098a-4762-b96e-2e403b0a8894.png",
+    "output": "assets/images/merch/women-tee-back.webp"
+  },
+  {
+    "id": "women-joggers",
+    "prompt": "Use case: product-mockup. Asset: transparent product cutout for an interactive ESIVA apparel configurator. Create a premium photorealistic ecommerce studio photograph of black women's gently shaped tapered training jogger trousers with elastic drawstring waistband, two side pockets, full length and ribbed ankle cuffs. Invisible mannequin, NO person, no hanger, no background. Exactly straight-on, perfectly centered, balanced sleeves or legs, garment fills about 84% of square canvas height with small equal top and bottom margins. Whole garment visible. Matte jet-black fine cotton knit with subtle realistic folds, seams and tactile detail, soft broad studio light defining the black silhouette. Keep upper chest / thigh surface smooth for a separate small branding overlay. Entire garment totally blank: NO logos, NO letters, NO artwork, NO labels, no props. Genuine transparent background. Square canvas.",
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-0f2c27ba-b6e9-48fc-b969-31b697591b50.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-0f2c27ba-b6e9-48fc-b969-31b697591b50.png",
+    "output": "assets/images/merch/women-joggers.webp"
+  },
+  {
+    "id": "women-hoodie",
+    "prompt": "Use case: product-mockup. Asset: transparent product cutout for an interactive ESIVA apparel configurator. Create a premium photorealistic ecommerce studio photograph of a black women's gently fitted athletic full-zip hoodie with a hood, TWO separate front pockets and a clearly visible silver-black zip running the ENTIRE length from collar to bottom hem, zipped closed, front view. Invisible mannequin, NO person, no hanger, no background. Exactly straight-on, perfectly centered, balanced sleeves or legs, garment fills about 84% of square canvas height with small equal top and bottom margins. Whole garment visible. Matte jet-black fine cotton knit with subtle realistic folds, seams and tactile detail, soft broad studio light defining the black silhouette. Keep upper chest / thigh surface smooth for a separate small branding overlay. Entire garment totally blank: NO logos, NO letters, NO artwork, NO labels, no props. Genuine transparent background. Square canvas.",
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-65d922e7-93c9-4284-b20e-953950d23466.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-65d922e7-93c9-4284-b20e-953950d23466.png",
+    "output": "assets/images/merch/women-hoodie.webp"
+  },
+  {
+    "id": "men-tee-front",
+    "prompt": "Use case: product-mockup. Asset: transparent product cutout for an interactive ESIVA apparel configurator. Create a premium photorealistic ecommerce studio photograph of a black short-sleeve crew-neck athletic T-shirt, FRONT view, visible round collar, men's straight regular silhouette. Invisible mannequin, NO person, no hanger, no background. Exactly straight-on, perfectly centered, balanced sleeves or legs, garment fills about 84% of square canvas height with small equal top and bottom margins. Whole garment visible. Matte jet-black fine cotton knit with subtle realistic folds, seams and tactile detail, soft broad studio light defining the black silhouette. Keep upper chest / thigh surface smooth for a separate small branding overlay. Entire garment totally blank: NO logos, NO letters, NO artwork, NO labels, no props. Genuine transparent background. Square canvas.",
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-59717504-4304-47f4-b9f7-aab8d352f9c4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-59717504-4304-47f4-b9f7-aab8d352f9c4.png",
+    "output": "assets/images/merch/men-tee-front.webp"
+  },
+  {
+    "id": "men-tee-back",
+    "prompt": "Use case: product-mockup. Asset: transparent product cutout for an interactive ESIVA apparel configurator. Create a premium photorealistic ecommerce studio photograph of a black short-sleeve crew-neck athletic T-shirt, BACK view, high back neckline, men's straight regular silhouette. Invisible mannequin, NO person, no hanger, no background. Exactly straight-on, perfectly centered, balanced sleeves or legs, garment fills about 84% of square canvas height with small equal top and bottom margins. Whole garment visible. Matte jet-black fine cotton knit with subtle realistic folds, seams and tactile detail, soft broad studio light defining the black silhouette. Keep upper chest / thigh surface smooth for a separate small branding overlay. Entire garment totally blank: NO logos, NO letters, NO artwork, NO labels, no props. Genuine transparent background. Square canvas.",
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-76dcf61c-0d73-4991-9f71-f9cb9e5a1dbd.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-76dcf61c-0d73-4991-9f71-f9cb9e5a1dbd.png",
+    "output": "assets/images/merch/men-tee-back.webp"
+  },
+  {
+    "id": "men-joggers",
+    "prompt": "Use case: product-mockup. Asset: transparent product cutout for an interactive ESIVA apparel configurator. Create a premium photorealistic ecommerce studio photograph of black men's regular tapered training jogger trousers with elastic drawstring waistband, two side pockets, full length and ribbed ankle cuffs. Invisible mannequin, NO person, no hanger, no background. Exactly straight-on, perfectly centered, balanced sleeves or legs, garment fills about 84% of square canvas height with small equal top and bottom margins. Whole garment visible. Matte jet-black fine cotton knit with subtle realistic folds, seams and tactile detail, soft broad studio light defining the black silhouette. Keep upper chest / thigh surface smooth for a separate small branding overlay. Entire garment totally blank: NO logos, NO letters, NO artwork, NO labels, no props. Genuine transparent background. Square canvas.",
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-856ebfba-d6d0-426f-8ffb-76b131c40a18.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-856ebfba-d6d0-426f-8ffb-76b131c40a18.png",
+    "output": "assets/images/merch/men-joggers.webp"
+  },
+  {
+    "id": "men-hoodie",
+    "prompt": "Use case: product-mockup. Asset: transparent product cutout for an interactive ESIVA apparel configurator. Create a premium photorealistic ecommerce studio photograph of a black men's regular athletic full-zip hoodie with a hood, TWO separate front pockets and a clearly visible silver-black zip running the ENTIRE length from collar to bottom hem, zipped closed, front view. Invisible mannequin, NO person, no hanger, no background. Exactly straight-on, perfectly centered, balanced sleeves or legs, garment fills about 84% of square canvas height with small equal top and bottom margins. Whole garment visible. Matte jet-black fine cotton knit with subtle realistic folds, seams and tactile detail, soft broad studio light defining the black silhouette. Keep upper chest / thigh surface smooth for a separate small branding overlay. Entire garment totally blank: NO logos, NO letters, NO artwork, NO labels, no props. Genuine transparent background. Square canvas.",
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-dedb9de4-bdd9-4dff-a464-a56f9d3d44df.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-dedb9de4-bdd9-4dff-a464-a56f9d3d44df.png",
+    "output": "assets/images/merch/men-hoodie.webp"
+  },
+  {
+    "id": "slogan-app",
+    "prompt": "Use case: background-extraction. Edit target: attached ESIVA slogan artwork. Remove ONLY the plain white outer background, producing a clean transparent cutout. Preserve the hot pink sticker outline, glossy white three-dimensional letters, white orbit line and spheres, all internal white lettering and all punctuation exactly. Text must remain exactly: \"MY APP MADE ME DO IT.\". Do not redesign, reword, or add anything. Center the full original artwork, without cropping any part. Transparent empty area outside the pink artwork, including all corners.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/5/58E247D2-387D-4C53-94C0-7BACE7132910_4_5005_c.jpeg"
+    ],
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-91850cf5-e5a7-4eee-9f4b-d2989f9e2fc8.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-91850cf5-e5a7-4eee-9f4b-d2989f9e2fc8.png",
+    "output": "assets/images/merch/slogan-app.webp"
+  },
+  {
+    "id": "slogan-track",
+    "prompt": "Use case: background-extraction. Edit target: attached ESIVA slogan artwork. Remove ONLY the plain white outer background, producing a clean transparent cutout. Preserve the hot pink sticker outline, glossy white three-dimensional letters, white orbit line and spheres, all internal white lettering and all punctuation exactly. Text must remain exactly: \"I DON’T GUESS. I TRACK.\". Do not redesign, reword, or add anything. Center the full original artwork, without cropping any part. Transparent empty area outside the pink artwork, including all corners.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/8/804F1591-36C0-49C1-B34D-A4A06230B524_4_5005_c.jpeg"
+    ],
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-63859630-ca2c-4850-9c2a-f589c919f470.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-63859630-ca2c-4850-9c2a-f589c919f470.png",
+    "output": "assets/images/merch/slogan-track.webp"
+  },
+  {
+    "id": "slogan-source",
+    "prompt": "Use case: background-extraction. Edit target: attached ESIVA slogan artwork. Remove ONLY the plain white outer background, producing a clean transparent cutout. Preserve the hot pink sticker outline, glossy white three-dimensional letters, white orbit line and spheres, all internal white lettering and all punctuation exactly. Text must remain exactly: \"MY BODY IS A DATA SOURCE.\". Do not redesign, reword, or add anything. Center the full original artwork, without cropping any part. Transparent empty area outside the pink artwork, including all corners.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/A/A2D02A42-ADA9-4E2B-9C08-A8828F86C17A_4_5005_c.jpeg"
+    ],
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-cb2d27bf-fc37-4bab-bb51-b89c494f9751.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-cb2d27bf-fc37-4bab-bb51-b89c494f9751.png",
+    "output": "assets/images/merch/slogan-source.webp"
+  },
+  {
+    "id": "slogan-numbers",
+    "prompt": "Use case: background-extraction. Edit target: attached ESIVA slogan artwork. Remove ONLY the plain white outer background, producing a clean transparent cutout. Preserve the hot pink sticker outline, glossy white three-dimensional letters, white orbit line and spheres, all internal white lettering and all punctuation exactly. Text must remain exactly: \"I SWEAT IN NUMBERS.\". Do not redesign, reword, or add anything. Center the full original artwork, without cropping any part. Transparent empty area outside the pink artwork, including all corners.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/F/FC9C4932-B5C7-4C37-A388-F4D2B4C67355_4_5005_c.jpeg"
+    ],
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-58e86b69-6381-43cd-a0f1-f538e7b86770.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-58e86b69-6381-43cd-a0f1-f538e7b86770.png",
+    "output": "assets/images/merch/slogan-numbers.webp"
+  },
+  {
+    "id": "slogan-knows",
+    "prompt": "Use case: background-extraction. Edit target: attached ESIVA slogan artwork. Remove ONLY the plain white outer background, producing a clean transparent cutout. Preserve the hot pink sticker outline, glossy white three-dimensional letters, white orbit line and spheres, all internal white lettering and all punctuation exactly. Text must remain exactly: \"MY APP KNOWS TOO MUCH.\". Do not redesign, reword, or add anything. Center the full original artwork, without cropping any part. Transparent empty area outside the pink artwork, including all corners.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/C/CEFD37E3-B37F-46AB-8231-D9ED86A94FE3_4_5005_c.jpeg"
+    ],
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-e1383eaa-f6a4-452d-9e0a-4d750daf65b4.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-e1383eaa-f6a4-452d-9e0a-4d750daf65b4.png",
+    "output": "assets/images/merch/slogan-knows.webp"
+  },
+  {
+    "id": "slogan-data",
+    "prompt": "Use case: background-extraction. Edit target: attached ESIVA slogan artwork. Remove ONLY the plain white outer background, producing a clean transparent cutout. Preserve the hot pink sticker outline, glossy white three-dimensional letters, white orbit line and spheres, all internal white lettering and all punctuation exactly. Text must remain exactly: \"I DON’T SWEAT. I COLLECT DATA.\". Do not redesign, reword, or add anything. Center the full original artwork, without cropping any part. Transparent empty area outside the pink artwork, including all corners.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/4/4AADF115-2556-41A7-B1E6-83AF04B58A03_4_5005_c.jpeg"
+    ],
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-973b64b8-c617-43d6-8a36-8bf616a30937.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-973b64b8-c617-43d6-8a36-8bf616a30937.png",
+    "output": "assets/images/merch/slogan-data.webp"
+  },
+  {
+    "id": "mascot",
+    "prompt": "Use case: background-extraction. Extract ONLY the central seated lavender ESIVA cat mascot from the attached illustration. Preserve exactly its adorable face, large purple eyes, white-lavender fur, purple sleeveless hoodie with E emblem, raised waving arm, other arm against chest, large fluffy tail on its left. Exactly TWO front arms and TWO hind paws: FOUR limbs total. Remove all surrounding humans, arrows, landscape, food, body, paths and plants. Complete full-body mascot isolated centered on a genuine transparent square background, fills 85% of canvas height. Same polished 3D style. No extra limbs or extra text.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/concepts/esiva-living-loop.webp"
+    ],
+    "transparent_background": true,
+    "result": "Generated images are saved to /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9 as /Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-098e9037-dae9-4fcb-9b8a-0d38fde107b3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-098e9037-dae9-4fcb-9b8a-0d38fde107b3.png",
+    "output": "assets/images/merch/mascot.webp"
+  }
+]

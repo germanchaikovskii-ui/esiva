@@ -1,0 +1,92 @@
+/* ESIVA Merch — a focused, local-only design studio. */
+.merch-page{background:#101019;color:#f4f1f5;--pink:#f83ecb;--muted:#b4acbc;--border:#ffffff22}
+.merch-page [hidden]{display:none!important}
+.merch-page button,.merch-page input{font:inherit}
+.merch-page button{cursor:pointer}
+.merch-page button:focus-visible,.merch-page a:focus-visible,.merch-page input:focus-visible{outline:3px solid var(--pink);outline-offset:5px}
+.merch-page .site-header{background:#17131de8}
+.merch-main{width:min(1320px,calc(100% - 64px));margin:auto;padding-top:136px}
+.merch-intro{display:flex;justify-content:space-between;align-items:flex-end;gap:35px;margin-bottom:38px}
+.merch-eyebrow{text-transform:uppercase;font-size:11px;letter-spacing:.22em;font-weight:650;color:#e8a1d8;margin:0 0 15px}
+.merch-intro h1{font-size:clamp(38px,4.6vw,66px);line-height:1.04;letter-spacing:-.055em;font-weight:600;margin:0}
+.merch-intro h1 span{color:#aaa1b4}
+.merch-intro>p{max-width:270px;font-size:15px;line-height:1.7;color:var(--muted);margin:0 0 4px}
+.merch-configurator{display:grid;grid-template-columns:minmax(0,1.22fr) minmax(340px,.85fr);gap:36px;align-items:start;scroll-margin-top:100px}
+.preview-column{position:sticky;top:94px;min-width:0}
+.product-preview{position:relative;border-radius:28px;background:radial-gradient(ellipse at 40% 30%,#faf5f7 5%,#dfdbe2 95%);aspect-ratio:1;isolation:isolate;overflow:hidden;color:#27232b}
+.preview-topline{position:absolute;z-index:3;top:25px;left:27px;right:27px;display:flex;justify-content:space-between;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#625868}
+.preview-topline>span:first-child{font-weight:700;letter-spacing:.3em}
+.garment-stack{position:absolute;inset:2% 0 0;transition:opacity .18s ease;filter:drop-shadow(0 18px 16px #24122719)}
+.is-loading .garment-stack{opacity:.22}
+.garment-image{position:absolute;width:100%;height:100%;object-fit:contain;inset:0}
+.print-layer{position:absolute;left:62%;top:29%;width:11.2%;height:15%;display:flex;align-items:center;justify-content:center;transform:translate(-50%,-50%)}
+.print-layer img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 1px 1px #0005)}
+.product-preview[data-brand=emblem][data-view=front] .print-layer img{height:auto;aspect-ratio:1;border-radius:50%;clip-path:circle(48%)}
+.print-wordmark{color:#fff;font-size:clamp(9px,1.25vw,17px);font-weight:400;letter-spacing:.19em;white-space:nowrap;border:1px solid #ffffffbd;border-radius:4px;padding:.2em .33em .15em .5em}
+.product-preview[data-garment=hoodie] .print-layer{left:59.5%;top:32%;width:9%;height:12%}
+.product-preview[data-garment=joggers] .print-layer{left:61%;top:28%;width:9%;height:12%}
+.product-preview[data-view=back] .print-layer{left:50%;top:35%;width:40%;height:31%}
+.product-preview[data-brand=mascot][data-view=front] .print-layer{height:19%;width:14%}
+.product-preview[data-garment=joggers][data-brand=mascot] .print-layer,.product-preview[data-garment=hoodie][data-brand=mascot] .print-layer{height:15%;width:11%}
+.preview-bottomline{position:absolute;z-index:3;bottom:24px;left:27px;right:27px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:11px;color:#685e6d}
+.color-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#18171a;margin-right:6px}
+.view-controls{display:flex;gap:4px;background:#fff9;border:1px solid #fff;border-radius:30px;padding:4px;backdrop-filter:blur(12px)}
+.view-controls button{border:0;border-radius:22px;background:transparent;color:#65596c;padding:10px 19px;font-size:12px}
+.view-controls button[aria-pressed=true]{background:#211a28;color:white}
+.preview-note{font-size:11px;line-height:1.6;color:#b3aaba;margin:12px 4px}
+.config-panel{padding:4px 0 0;min-width:0}
+.config-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;padding-bottom:22px;border-bottom:1px solid var(--border);margin-bottom:21px}
+.config-heading p{font-size:11px;color:#c9b2cd;letter-spacing:.13em;text-transform:uppercase;margin:0 0 7px}
+.config-heading h2{font-size:30px;font-weight:550;letter-spacing:-.035em;margin:0}
+.studio-badge{font-size:9px;text-transform:uppercase;letter-spacing:.12em;border:1px solid #8b687d;border-radius:20px;padding:7px 9px;white-space:nowrap;color:#e6bdd9}
+.config-panel fieldset{margin:0 0 23px;padding:0;border:0;min-width:0}
+.config-panel legend{display:flex;align-items:baseline;gap:8px;width:100%;font-size:12px;font-weight:600;margin:0 0 10px;padding:0}
+.config-panel legend .step{color:#947f99;font-size:10px;margin-right:3px}
+.config-panel legend small{font-weight:400;color:#a99fb2;font-size:10px;margin-left:auto}
+.option-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.option-row.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.choice{position:relative;display:block;min-width:0;cursor:pointer}
+.choice input{position:absolute;opacity:0;width:1px;height:1px}
+.choice>span{display:flex;align-items:center;justify-content:center;min-height:43px;padding:10px;border:1px solid #ffffff26;border-radius:10px;color:#d1c8d8;font-size:12px;transition:background .2s,border-color .2s,box-shadow .2s}
+.choice:hover>span{background:#ffffff0c;border-color:#b591b1}
+.choice input:checked+span{border-color:#f175cf;background:#dc32b31a;box-shadow:0 0 0 1px #f175cf44;color:white}
+.choice input:focus-visible+span{outline:3px solid #fa84db;outline-offset:3px}
+.garment-choices .choice>span{flex-direction:column;gap:8px;padding:12px 5px;font-size:11px}
+.garment-choices svg{height:28px;width:35px;fill:none;stroke:currentColor;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round}
+.brand-choices .choice>span{flex-direction:column;gap:7px;min-height:87px;font-size:10px;padding:10px 4px}
+.brand-thumb{height:33px;width:36px;object-fit:contain}
+.emblem-thumb{border-radius:50%;clip-path:circle(48%);width:33px}
+.wordmark-thumb{display:flex;align-items:center;height:33px;font-size:12px;letter-spacing:.15em;color:#fff}
+.slogan-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.slogan-options .choice>span{font-size:11px;justify-content:flex-start;line-height:1.35;min-height:43px;padding:9px 11px}
+.design-recap{border-top:1px solid var(--border);padding-top:19px}
+.design-recap>p:first-child{font-size:9px;letter-spacing:.17em;text-transform:uppercase;color:#c7a8c4;margin:0 0 6px}
+#design-summary{font-size:12px;line-height:1.7;color:#c5bdcc;margin:0 0 18px}
+.design-actions{display:flex;align-items:center;gap:18px}
+.copy-design{border:0;border-radius:11px;background:#f4e8f1;color:#261a29;padding:13px 19px;min-height:44px;font-size:12px;font-weight:600;flex:1;transition:background .2s}
+.copy-design:hover{background:#ffd7f4}
+.reset-design{border:0;background:none;color:#c0b5c8;font-size:11px;padding:10px 4px;text-decoration:underline;text-underline-offset:4px}
+#link-fallback{margin-top:15px;font-size:12px}#look-link{width:100%;margin-top:8px;padding:10px;background:#251e2b;color:white;border:1px solid #9c6e93;border-radius:6px;font-size:12px}
+.merch-gallery{margin:100px 0 0;border-top:1px solid var(--border);padding-top:44px}
+.gallery-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:28px}
+.gallery-heading h2{font-size:clamp(29px,3.5vw,44px);letter-spacing:-.045em;line-height:1.1;margin:0;font-weight:550}
+.gallery-heading p{color:var(--muted);font-size:13px;line-height:1.7;max-width:245px;margin:0}
+.slogan-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.slogan-tile{display:flex;flex-direction:column;align-items:center;gap:18px;color:#cbbfd2;border:1px solid #ffffff18;border-radius:18px;padding:20px;background:radial-gradient(ellipse at center,#3c213e 0,#201a25 80%);transition:background .25s,border-color .25s,transform .25s;min-width:0}
+.slogan-tile:hover{border-color:#e55fc0;background:radial-gradient(ellipse at center,#5c2354,#281a2c);transform:translateY(-3px)}
+.slogan-tile img{width:100%;height:130px;object-fit:contain;filter:drop-shadow(0 8px 8px #0003)}
+.slogan-tile span{font-size:11px}.slogan-tile span::after{content:' ↗';color:#f78cd8}
+.merch-outro{display:flex;justify-content:space-between;align-items:center;gap:30px;margin-top:45px;padding:28px 0;border-top:1px solid var(--border);color:#c1b3c8;font-size:13px;line-height:1.7}
+.merch-outro p{margin:0;max-width:500px}.merch-outro a{white-space:nowrap;text-underline-offset:5px}
+.merch-page .site-footer{width:min(1320px,calc(100% - 64px));margin-top:55px}
+.merch-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.merch-noscript{padding:25px;background:#392238;border-radius:16px;font-size:16px;line-height:1.7}
+@media(min-width:1500px){.print-wordmark{font-size:18px}}
+@media(max-width:1000px){.merch-main{width:calc(100% - 40px)}.merch-configurator{gap:24px;grid-template-columns:minmax(0,1fr) minmax(310px,.9fr)}.merch-intro h1{font-size:44px}.preview-topline{top:20px;left:20px;right:20px}.preview-bottomline{left:17px;right:17px;bottom:17px}.preview-bottomline>span{font-size:9px}.view-controls button{padding:8px 12px}.slogan-tile img{height:110px}}
+@media(max-width:760px){.merch-configurator{grid-template-columns:1fr;gap:25px}.preview-column{position:static}.product-preview{max-width:600px;margin:auto}.merch-intro{display:block;margin-bottom:25px}.merch-intro>p{max-width:360px;margin-top:20px}.merch-intro h1{font-size:48px}.config-panel{max-width:600px;width:100%;margin:auto}.print-wordmark{font-size:clamp(10px,2.3vw,17px)}.merch-gallery{margin-top:65px}.slogan-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery-heading{display:block}.gallery-heading p{max-width:none;margin-top:15px}.slogan-tile{padding:14px;gap:8px}.slogan-tile img{height:110px}.merch-page .site-footer{width:calc(100% - 40px)}}
+@media(max-width:620px){.merch-main{padding-top:157px}.merch-configurator{scroll-margin-top:133px}.merch-intro h1{font-size:42px}.merch-intro>p{font-size:14px}.merch-outro{align-items:flex-start;flex-direction:column;gap:15px}.merch-eyebrow{font-size:10px}.gallery-heading h2{font-size:34px}}
+@media(max-width:380px){.merch-main{width:calc(100% - 28px)}.merch-intro h1{font-size:37px}.preview-topline{font-size:8px;left:18px;right:18px}.product-preview{border-radius:19px}.preview-bottomline{bottom:12px;left:12px;right:12px}.view-controls button{font-size:10px;padding:7px 10px}.slogan-tile{padding:12px 7px}.slogan-tile img{height:85px}.slogan-tile span{font-size:9px}.config-heading h2{font-size:27px}}
+@media(prefers-reduced-motion:reduce){.merch-page *{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+.mobile-preview-link{display:none}
+@media(max-width:760px){.mobile-preview-link{display:inline-block;color:#f2b5e0;font-size:12px;margin:0 0 20px;text-underline-offset:5px;padding:7px 0}}

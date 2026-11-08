@@ -39,3 +39,8 @@
 }
 
 .business-id{white-space:nowrap}
+
+/* Six-item navigation, including the merch studio. */
+@media(min-width:621px) and (max-width:760px){.site-header .site-nav{gap:0}.site-header .site-nav a{padding:9px 8px;font-size:11px}}
+@media(max-width:620px){.site-header .site-nav a{font-size:10px;min-height:44px;padding:8px 5px;white-space:nowrap}.site-header .site-nav{flex-wrap:wrap;justify-content:center;column-gap:1px}}
+@media(max-width:360px){.site-header .site-nav a{font-size:10px;padding:8px 4px}}
