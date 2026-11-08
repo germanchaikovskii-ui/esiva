@@ -79,3 +79,13 @@ The overview is a responsive live HTML/SVG illustration in the app’s cream, bl
 Journey and contributor rewards appear in a separate “Coming next” panel, with asterisks and working links to section 05. A linked note explicitly states that both are in development. “Find your daily balance” still opens section 01. Chapter numbering and common navigation are unchanged. The previous hero screenshot is archived in the source manifest and remains on disk.
 
 Browser checks: 1440×900, 1024×768, 768×1024, 390×844 and 320×740, with no page overflow or clipped labels. Desktop and mobile diagram visually inspected. Journey link and primary CTA exercised and verified at their respective destinations. Browser warning/error log empty. Local asset/link, original image hash and protected-branch checks pass. Screenshot: working-folder `qa/esiva-closed-loop-overview.jpg`.
+
+## Pictorial hero revision and mascot anatomy — 2026-11-08
+
+Replaced the small panel-based diagram with one large, transparent-background 3D illustration: food/body signals, exercise, the adapting ESIVA companion and an experienced participant helping a beginner. No text blocks, nested backgrounds or cards inside the illustration. Left-side hero copy and the balance CTA are byte-identical to the previous commit.
+
+The owner noticed an extra hind paw in the first generated draft. That draft was not installed. A targeted image edit corrected the mascot to two front arms/paws and two hind legs/paws; the corrected output was visually checked before site integration. Final WebP retains alpha. Source and both exact prompts: `assets/images/concepts/LIVING-LOOP.md`.
+
+The future Journey/reward explanation is retained as a single linked caption below the illustration. A short, one-time arrival transition supports the composition; reduced-motion preference disables it. No continuous or distracting animation.
+
+Browser checks at 1440×900, 1024×768, 390×844 and 320×740: image loads, no horizontal overflow or clipped copy. Desktop composition and mascot inspected. Journey caption and balance CTA navigate correctly. Console warnings/errors empty; local asset/link/hash and Git checks pass. Public maintenance and main untouched. Screenshot: working-folder `qa/esiva-living-loop-hero.jpg`.
