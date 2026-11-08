@@ -117,3 +117,33 @@
 .product-preview[data-presentation=model][data-garment=joggers] .print-layer{transform:translate(-50%,-50%) rotate(-4deg) scaleX(.9)}
 .product-preview[data-presentation=model][data-view=back] .print-layer{transform:translate(-50%,-50%) skewY(5deg) scaleX(.93)}
 .product-preview[data-presentation=model] .print-layer img{filter:none}
+
+/* Full outfit: independent prints over one full-length studio photograph. */
+.product-preview[data-presentation=outfit] .garment-stack{inset:0;filter:none}
+.outfit-print{position:absolute;display:flex;align-items:center;justify-content:center;transform:translate(-50%,-50%) rotate(-5deg) scaleX(.92);width:4.6%;height:7%}
+.outfit-print img{width:100%;height:100%;object-fit:contain}
+.outfit-print[data-brand=emblem] img{height:auto;aspect-ratio:1;border-radius:50%;clip-path:circle(48%)}
+.outfit-print[data-brand=mascot]{width:5.8%;height:8.5%}
+.product-preview .outfit-print .print-wordmark{font-size:.82cqw}
+.outfit-print[data-outfit-print=tee]{left:54%;top:27%}
+.outfit-print[data-outfit-print=joggers]{left:53.5%;top:52%}
+.outfit-print[data-outfit-print=hoodie]{left:59%;top:28%}
+.product-preview[data-outfit-style=open] .outfit-print[data-outfit-print=tee]{left:49%;top:27%}
+.product-preview[data-outfit-style=closed] .outfit-print[data-outfit-print=hoodie]{left:55%;top:28%}
+.product-preview[data-presentation=outfit] .preview-bottomline>span{background:#f4eff4d9;padding:6px 9px;border-radius:15px;color:#4a3e51}
+.config-panel .outfit-selection{border-top:1px solid var(--border);padding-top:20px}
+.outfit-items{display:grid;gap:6px}
+.outfit-items label{cursor:pointer;display:flex;align-items:center;gap:12px;border:1px solid #ffffff26;border-radius:9px;padding:10px 12px;min-height:48px}
+.outfit-items label:has(input:checked){border-color:#b167a0;background:#dc32b30d}
+.outfit-items input{width:18px;height:18px;accent-color:#eb63c6;flex:none}
+.outfit-items span{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%}
+.outfit-items strong{font-size:12px;font-weight:500}.outfit-items small{font-size:10px;color:#c7b6ce}
+#outfit-summary{font-size:11px;line-height:1.7;color:#bbb0c3;margin:12px 0}
+#preview-outfit{background:#6a345d33;color:#f7d9f0;border:1px solid #a86599;border-radius:9px;min-height:44px;padding:10px 15px;width:100%;font-size:12px}
+#preview-outfit:hover{background:#6a345d77}
+.outfit-note{font-size:10px;line-height:1.6;color:#b8aabd;margin:10px 0 0}
+@media(max-width:380px){.preview-mode-controls button{font-size:11px}.outfit-items strong{font-size:11px}.outfit-items small{font-size:9px}}
+
+.product-preview[data-outfit-style=open] .outfit-print[data-outfit-print=hoodie]{left:57.4%;top:28%;width:3.6%;height:6%}
+.product-preview[data-outfit-style=open] .outfit-print[data-outfit-print=hoodie][data-brand=mascot]{width:4.4%;height:7%}
+.product-preview[data-outfit-style=open] .outfit-print[data-outfit-print=hoodie] .print-wordmark{font-size:.68cqw}

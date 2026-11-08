@@ -1,0 +1,42 @@
+[
+  {
+    "id": "outfit-women-open",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit the supplied full-body fashion photograph of the woman. Preserve the EXACT SAME person, face, hair, physique, black tapered training joggers and black shoes, full-body framing, three-quarter angle, studio lighting and pale grey background. Add a plain BLACK athletic FULL-ZIP HOODIE with hood down. The hoodie is fully UNZIPPED, worn OPEN over the existing plain black T-shirt. Arrange both front panels naturally well apart: the left chest area of the T-shirt AND the outer left chest panel of the hoodie must both be visible as separate surfaces for independent graphics. Keep the left outer hoodie panel slightly pulled outwards so it does not cover the T-shirt's left chest, but hands relaxed at sides, not obscuring either chest surface. Drawstrings hang close to the zipper edges, leaving the outer left chest area unobstructed. All garments must remain completely BLANK with no logos, graphics, letters, labels or branding. One square full-body photograph, top of hair and soles visible with margins; do not crop feet. Exactly two arms and two legs. Keep the pants waistband and left upper thigh clear, no hands over it. Soft premium ecommerce quality.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/merch/model-women-joggers.webp"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-49db532d-af2e-47d4-b3ee-13eb8b4fc360.png",
+    "output": "assets/images/merch/outfit-women-open.webp"
+  },
+  {
+    "id": "outfit-women-closed",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit the supplied full-body fashion photograph of the woman. Preserve the EXACT SAME person, face, hair, physique, black tapered training joggers and black shoes, full-body framing, three-quarter angle, studio lighting and pale grey background. Add a plain BLACK athletic FULL-ZIP HOODIE with hood down. The hoodie is fully ZIPPED CLOSED from bottom hem to collar, natural relaxed pose. Clear visible zipper, two pockets. No T-shirt graphic area exposed. Drawstrings hang close to the zipper edges, leaving the outer left chest area unobstructed. All garments must remain completely BLANK with no logos, graphics, letters, labels or branding. One square full-body photograph, top of hair and soles visible with margins; do not crop feet. Exactly two arms and two legs. Keep the pants waistband and left upper thigh clear, no hands over it. Soft premium ecommerce quality.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/merch/model-women-joggers.webp"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-49d4420c-627d-4ad6-b58b-d9cf99fe6a37.png",
+    "output": "assets/images/merch/outfit-women-closed.webp"
+  },
+  {
+    "id": "outfit-men-open",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit the supplied full-body fashion photograph of the man. Preserve the EXACT SAME person, face, hair, physique, black tapered training joggers and black shoes, full-body framing, three-quarter angle, studio lighting and pale grey background. Add a plain BLACK athletic FULL-ZIP HOODIE with hood down. The hoodie is fully UNZIPPED, worn OPEN over the existing plain black T-shirt. Arrange both front panels naturally well apart: the left chest area of the T-shirt AND the outer left chest panel of the hoodie must both be visible as separate surfaces for independent graphics. Keep the left outer hoodie panel slightly pulled outwards so it does not cover the T-shirt's left chest, but hands relaxed at sides, not obscuring either chest surface. Drawstrings hang close to the zipper edges, leaving the outer left chest area unobstructed. All garments must remain completely BLANK with no logos, graphics, letters, labels or branding. One square full-body photograph, top of hair and soles visible with margins; do not crop feet. Exactly two arms and two legs. Keep the pants waistband and left upper thigh clear, no hands over it. Soft premium ecommerce quality.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/merch/model-men-joggers.webp"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-83b62ee3-3fc9-4310-abca-7ef6bff01261.png",
+    "output": "assets/images/merch/outfit-men-open.webp"
+  },
+  {
+    "id": "outfit-men-closed",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit the supplied full-body fashion photograph of the man. Preserve the EXACT SAME person, face, hair, physique, black tapered training joggers and black shoes, full-body framing, three-quarter angle, studio lighting and pale grey background. Add a plain BLACK athletic FULL-ZIP HOODIE with hood down. The hoodie is fully ZIPPED CLOSED from bottom hem to collar, natural relaxed pose. Clear visible zipper, two pockets. No T-shirt graphic area exposed. Drawstrings hang close to the zipper edges, leaving the outer left chest area unobstructed. All garments must remain completely BLANK with no logos, graphics, letters, labels or branding. One square full-body photograph, top of hair and soles visible with margins; do not crop feet. Exactly two arms and two legs. Keep the pants waistband and left upper thigh clear, no hands over it. Soft premium ecommerce quality.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/Documents/German projects/ESIVA website GitHub/assets/images/merch/model-men-joggers.webp"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-7114b551-46da-4b0d-9b9b-1159b0c8714b.png",
+    "output": "assets/images/merch/outfit-men-closed.webp"
+  }
+]

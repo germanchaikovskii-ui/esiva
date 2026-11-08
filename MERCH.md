@@ -53,3 +53,13 @@ Then open http://127.0.0.1:8082/merch/ . Keep the terminal running while testing
 - Browser verification: 18 model garment/collection/branding combinations; six back prints on both models; mode switching preserves choices; keyboard activation; reload restores model view; all six product-mode hoodie branding combinations clear the central drawstrings.
 - Layout verified at 320, 390 and 1024 pixels, with 44-pixel mode buttons and no horizontal overflow. No missing loaded images or browser console warnings/errors. JavaScript syntax, local asset/link checks and Git whitespace checks pass.
 - Public maintenance, main, CNAME and publishing configuration remain untouched. No checkout or ordering added.
+
+## Full outfit preview — 8 November 2026
+
+- Added **Full outfit**, showing women or men head-to-toe in a three-quarter view. Each garment retains its own emblem, wordmark or mascot; the T-shirt also retains its back slogan.
+- **Your outfit** includes or removes each garment without erasing its design. With a T-shirt and hoodie selected, the hoodie opens to show both prints. Without a selected T-shirt, the hoodie is zipped closed. Unselected basics remain unbranded. Back slogans remain available in the separate On model view.
+- All garment designs, inclusion choices and preview mode persist together in the copied design link and survive reload. Earlier single-item links still work.
+- Four new generated full-body assets (`outfit-{women,men}-{open,closed}.webp`) complement the existing full-body models. Exact built-in image-generation prompts and source paths: [OUTFIT-SOURCES.json](assets/images/merch/OUTFIT-SOURCES.json).
+- Browser checks covered all eight inclusion combinations on both models, independent brand restoration while switching items, reload persistence, back-slogan transitions and keyboard checkbox toggling. Responsive checks at 320, 390 and 1024 pixels found no horizontal overflow. No console errors or warnings observed. Local asset/link and Git whitespace checks pass.
+- Local preview: http://127.0.0.1:8081/merch/?v=full-outfit&presentation=outfit&include_hoodie=1&tee_brand=mascot&joggers_brand=wordmark&hoodie_brand=emblem
+- No ordering or payment flow; no push or public deployment. Protected branches and CNAME remain unchanged.
