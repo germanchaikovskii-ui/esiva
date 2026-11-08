@@ -43,3 +43,13 @@ Then open http://127.0.0.1:8082/merch/ . Keep the terminal running while testing
 - main remains 98c9b380e2daa0f1240910a97a11e0a40c2846d6.
 - temporary-maintenance remains 057a824acab66b996413bbb9ebf6ae62c654b61c.
 - CNAME, Pages settings and public maintenance deployment unchanged. No deployment or push performed.
+
+## Three-quarter model previews — 8 November 2026
+
+- Added Product / On model preview controls. Both modes share collection, garment, branding, back slogan and front/back state; presentation mode is included in copied URLs and restored on reload.
+- Added eight generated ¾-view photographs: women/men × T-shirt front, T-shirt back, full-zip hoodie, and full-body training pants. Final assets: `assets/images/merch/model-*.webp`. Built-in image-generation prompts and source references: [AVATAR-SOURCES.json](assets/images/merch/AVATAR-SOURCES.json).
+- Moved all product-mode hoodie branding outward from the drawstrings. Print placement and perspective in model mode are calibrated separately for each garment.
+- Wordmark sizing now scales with the image container. Re-selecting an already active front design or back slogan brings that side into view.
+- Browser verification: 18 model garment/collection/branding combinations; six back prints on both models; mode switching preserves choices; keyboard activation; reload restores model view; all six product-mode hoodie branding combinations clear the central drawstrings.
+- Layout verified at 320, 390 and 1024 pixels, with 44-pixel mode buttons and no horizontal overflow. No missing loaded images or browser console warnings/errors. JavaScript syntax, local asset/link checks and Git whitespace checks pass.
+- Public maintenance, main, CNAME and publishing configuration remain untouched. No checkout or ordering added.

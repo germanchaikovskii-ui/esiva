@@ -1,0 +1,90 @@
+[
+  {
+    "id": "model-women-tee-front",
+    "collection": "women",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit reference photo into another studio product photograph of the EXACT SAME adult woman, same face, hair, build and styling. Same PLAIN BLACK short-sleeve athletic crew-neck T-shirt and black training pants. FRONT THREE-QUARTER VIEW: torso turned 30 degrees toward the VIEWER'S LEFT, the person's own LEFT shoulder is closer to the camera and their left chest (on VIEWER'S RIGHT) is prominently visible. Natural relaxed standing fashion pose, face gently turned to camera. Hands at sides, neither hand nor hair crosses the shirt chest or left thigh. Frame from top of head to mid thigh; same camera distance as reference, whole head and hands visible. Centered in square canvas. Maintain pale warm grey studio backdrop, soft realistic light and fine black knit texture from reference. All clothing totally UNBRANDED and BLANK, no graphics, no text, no logos, no accessories. Accurate anatomy, exactly two arms and two legs. Leave the outer left chest or thigh clear and smooth for a website print overlay. Single photo, no collage.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-8dcdba3e-292a-4ff6-8cac-7ecd2daf5603.png"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-8636ae8c-2770-4a16-9b16-b7d3b1c08fff.png",
+    "output": "assets/images/merch/model-women-tee-front.webp"
+  },
+  {
+    "id": "model-women-tee-back",
+    "collection": "women",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit reference photo into another studio product photograph of the EXACT SAME adult woman, same face, hair, build and styling. Same PLAIN BLACK short-sleeve athletic crew-neck T-shirt and black training pants. BACK three-quarter view: back faces camera, rotate only 25 degrees so a side of the torso is visible. Back of the T-shirt is unobstructed, no long hair over back (ponytail tucked forward over shoulder for the woman). Arms naturally at sides. Camera can see slight face profile, but focus is back of shirt. Frame from top of head to mid thigh; same camera distance as reference, whole head and hands visible. Centered in square canvas. Maintain pale warm grey studio backdrop, soft realistic light and fine black knit texture from reference. All clothing totally UNBRANDED and BLANK, no graphics, no text, no logos, no accessories. Accurate anatomy, exactly two arms and two legs. Leave the outer left chest or thigh clear and smooth for a website print overlay. Single photo, no collage.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-8dcdba3e-292a-4ff6-8cac-7ecd2daf5603.png"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-42959ddf-8236-4930-88f0-d4071ab6cbf4.png",
+    "output": "assets/images/merch/model-women-tee-back.webp"
+  },
+  {
+    "id": "model-women-hoodie",
+    "collection": "women",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit reference photo into another studio product photograph of the EXACT SAME adult woman, same face, hair, build and styling. Change the T-shirt to a PLAIN BLACK full-zip athletic hoodie, hood DOWN behind the neck, fully zipped closed with a clear metal zipper from collar to bottom hem, two front pockets, drawstrings hanging vertically immediately beside the central zipper, never crossing the outer left-chest print area. Black training pants. FRONT THREE-QUARTER VIEW: torso turned 30 degrees toward the VIEWER'S LEFT, the person's own LEFT shoulder is closer to the camera and their left chest (on VIEWER'S RIGHT) is prominently visible. Natural relaxed standing fashion pose, face gently turned to camera. Hands at sides, neither hand nor hair crosses the shirt chest or left thigh. Frame from top of head to mid thigh; same camera distance as reference, whole head and hands visible. Centered in square canvas. Maintain pale warm grey studio backdrop, soft realistic light and fine black knit texture from reference. All clothing totally UNBRANDED and BLANK, no graphics, no text, no logos, no accessories. Accurate anatomy, exactly two arms and two legs. Leave the outer left chest or thigh clear and smooth for a website print overlay. Single photo, no collage.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-8dcdba3e-292a-4ff6-8cac-7ecd2daf5603.png"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-ac0e54bb-b7b7-445e-aa36-868aa4921ce0.png",
+    "output": "assets/images/merch/model-women-hoodie.webp"
+  },
+  {
+    "id": "model-women-joggers",
+    "collection": "women",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit reference photo into another studio product photograph of the EXACT SAME adult woman, same face, hair, build and styling. Show the person FULL BODY from top of head to soles, with head at 5% and shoes at 95% of square canvas height. Wearing PLAIN BLACK tapered training joggers with visible drawstring waistband, pockets and ribbed ankle cuffs, plain fitted black T-shirt tucked into waistband, understated black athletic shoes. Hands at sides but away from the front outer left thigh; that thigh is fully visible for branding. FRONT THREE-QUARTER VIEW: torso turned 30 degrees toward the VIEWER'S LEFT, the person's own LEFT shoulder is closer to the camera and their left chest (on VIEWER'S RIGHT) is prominently visible. Natural relaxed standing fashion pose, face gently turned to camera. Hands at sides, neither hand nor hair crosses the shirt chest or left thigh.  Maintain pale warm grey studio backdrop, soft realistic light and fine black knit texture from reference. All clothing totally UNBRANDED and BLANK, no graphics, no text, no logos, no accessories. Accurate anatomy, exactly two arms and two legs. Leave the outer left chest or thigh clear and smooth for a website print overlay. Single photo, no collage.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-8dcdba3e-292a-4ff6-8cac-7ecd2daf5603.png"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-1aae9214-051b-4940-b4e7-5defc9ceb7ac.png",
+    "output": "assets/images/merch/model-women-joggers.webp"
+  },
+  {
+    "id": "model-men-tee-front",
+    "collection": "men",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit reference photo into another studio product photograph of the EXACT SAME adult man, same face, hair, build and styling. Same PLAIN BLACK short-sleeve athletic crew-neck T-shirt and black training pants. FRONT THREE-QUARTER VIEW: torso turned 30 degrees toward the VIEWER'S LEFT, the person's own LEFT shoulder is closer to the camera and their left chest (on VIEWER'S RIGHT) is prominently visible. Natural relaxed standing fashion pose, face gently turned to camera. Hands at sides, neither hand nor hair crosses the shirt chest or left thigh. Frame from top of head to mid thigh; same camera distance as reference, whole head and hands visible. Centered in square canvas. Maintain pale warm grey studio backdrop, soft realistic light and fine black knit texture from reference. All clothing totally UNBRANDED and BLANK, no graphics, no text, no logos, no accessories. Accurate anatomy, exactly two arms and two legs. Leave the outer left chest or thigh clear and smooth for a website print overlay. Single photo, no collage.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-2425cbb8-b0e4-4109-b11e-e10d80df75a8.png"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-73fcb8ca-1b92-4797-9b4a-fa68beccf33d.png",
+    "output": "assets/images/merch/model-men-tee-front.webp"
+  },
+  {
+    "id": "model-men-tee-back",
+    "collection": "men",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit reference photo into another studio product photograph of the EXACT SAME adult man, same face, hair, build and styling. Same PLAIN BLACK short-sleeve athletic crew-neck T-shirt and black training pants. BACK three-quarter view: back faces camera, rotate only 25 degrees so a side of the torso is visible. Back of the T-shirt is unobstructed, no long hair over back (ponytail tucked forward over shoulder for the woman). Arms naturally at sides. Camera can see slight face profile, but focus is back of shirt. Frame from top of head to mid thigh; same camera distance as reference, whole head and hands visible. Centered in square canvas. Maintain pale warm grey studio backdrop, soft realistic light and fine black knit texture from reference. All clothing totally UNBRANDED and BLANK, no graphics, no text, no logos, no accessories. Accurate anatomy, exactly two arms and two legs. Leave the outer left chest or thigh clear and smooth for a website print overlay. Single photo, no collage.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-2425cbb8-b0e4-4109-b11e-e10d80df75a8.png"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-be912167-36bc-4069-8864-8452cb1b2cc4.png",
+    "output": "assets/images/merch/model-men-tee-back.webp"
+  },
+  {
+    "id": "model-men-hoodie",
+    "collection": "men",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit reference photo into another studio product photograph of the EXACT SAME adult man, same face, hair, build and styling. Change the T-shirt to a PLAIN BLACK full-zip athletic hoodie, hood DOWN behind the neck, fully zipped closed with a clear metal zipper from collar to bottom hem, two front pockets, drawstrings hanging vertically immediately beside the central zipper, never crossing the outer left-chest print area. Black training pants. FRONT THREE-QUARTER VIEW: torso turned 30 degrees toward the VIEWER'S LEFT, the person's own LEFT shoulder is closer to the camera and their left chest (on VIEWER'S RIGHT) is prominently visible. Natural relaxed standing fashion pose, face gently turned to camera. Hands at sides, neither hand nor hair crosses the shirt chest or left thigh. Frame from top of head to mid thigh; same camera distance as reference, whole head and hands visible. Centered in square canvas. Maintain pale warm grey studio backdrop, soft realistic light and fine black knit texture from reference. All clothing totally UNBRANDED and BLANK, no graphics, no text, no logos, no accessories. Accurate anatomy, exactly two arms and two legs. Leave the outer left chest or thigh clear and smooth for a website print overlay. Single photo, no collage.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-2425cbb8-b0e4-4109-b11e-e10d80df75a8.png"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-736d57d4-ebd3-4094-9d30-89e85a22632b.png",
+    "output": "assets/images/merch/model-men-hoodie.webp"
+  },
+  {
+    "id": "model-men-joggers",
+    "collection": "men",
+    "prompt": "Use case: identity-preserve / product-mockup. Edit reference photo into another studio product photograph of the EXACT SAME adult man, same face, hair, build and styling. Show the person FULL BODY from top of head to soles, with head at 5% and shoes at 95% of square canvas height. Wearing PLAIN BLACK tapered training joggers with visible drawstring waistband, pockets and ribbed ankle cuffs, plain fitted black T-shirt tucked into waistband, understated black athletic shoes. Hands at sides but away from the front outer left thigh; that thigh is fully visible for branding. FRONT THREE-QUARTER VIEW: torso turned 30 degrees toward the VIEWER'S LEFT, the person's own LEFT shoulder is closer to the camera and their left chest (on VIEWER'S RIGHT) is prominently visible. Natural relaxed standing fashion pose, face gently turned to camera. Hands at sides, neither hand nor hair crosses the shirt chest or left thigh.  Maintain pale warm grey studio backdrop, soft realistic light and fine black knit texture from reference. All clothing totally UNBRANDED and BLANK, no graphics, no text, no logos, no accessories. Accurate anatomy, exactly two arms and two legs. Leave the outer left chest or thigh clear and smooth for a website print overlay. Single photo, no collage.",
+    "referenced_image_paths": [
+      "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-2425cbb8-b0e4-4109-b11e-e10d80df75a8.png"
+    ],
+    "transparent_background": false,
+    "source": "/Users/germanchaikovskii/.codex/generated_images/01a1bb06-79b5-7cf1-a2ed-b40ff7a4e1b9/exec-71d6490d-4a83-4a08-a90a-8f539f9df398.png",
+    "output": "assets/images/merch/model-men-joggers.webp"
+  }
+]
