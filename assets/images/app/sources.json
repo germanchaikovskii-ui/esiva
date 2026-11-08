@@ -37,7 +37,8 @@
     "width": 281,
     "height": 612,
     "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/4/46047597-DF31-4E6D-BE7F-380F37E9EC81_4_5005_c.jpeg",
-    "sha256": "45af9f874c7c4a2af72d8238580433cffebcc8bf9a7a653a3c325ba05555e1a0"
+    "sha256": "45af9f874c7c4a2af72d8238580433cffebcc8bf9a7a653a3c325ba05555e1a0",
+    "usage": "Archived: section replaced by owner request; original file preserved."
   },
   "adaptive-target": {
     "src": "/assets/images/app/adaptive-target.jpeg",
@@ -45,7 +46,8 @@
     "width": 281,
     "height": 612,
     "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/4/4AD6AF04-B377-4F41-9FEB-D1C9590D2AAD_4_5005_c.jpeg",
-    "sha256": "813665e25ebf8b2e7dfab8b308f32eddf30a7d8d1e0c62bbccd37f7a5a723b38"
+    "sha256": "813665e25ebf8b2e7dfab8b308f32eddf30a7d8d1e0c62bbccd37f7a5a723b38",
+    "usage": "Archived: section replaced by owner request; original file preserved."
   },
   "connected-day": {
     "src": "/assets/images/app/connected-day.jpeg",
@@ -174,5 +176,21 @@
     "height": 612,
     "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/1/1AC0FE14-7530-4934-9CC5-F34722E16352_4_5005_c.jpeg",
     "sha256": "866a76e8c1d606972843fc74ea828556fa5487600616237bb59ccea90d8a4d4e"
+  },
+  "music-profile": {
+    "src": "/assets/images/app/music-profile.jpeg",
+    "alt": "Your Music Profile and personalized workout music library",
+    "width": 602,
+    "height": 1308,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/F/F9D84F3A-C3C9-4E9D-A1AD-A9D2461103F3_1_105_c.jpeg",
+    "sha256": "1ddb582899d141ec6760302127c9332517b4b2128ce76713afbe0a912e2bf4fd"
+  },
+  "music-library": {
+    "src": "/assets/images/app/music-library.jpeg",
+    "alt": "Saved tracks and music preference feedback in ESIVA",
+    "width": 602,
+    "height": 1308,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/7/77E0B41A-350C-4774-B552-793445D901A8_1_105_c.jpeg",
+    "sha256": "930e37c33c6f68cb834c849892ab8a88bc5af72c8b0038e915193757871f210a"
   }
 }

@@ -57,3 +57,15 @@ Added two chapters immediately after the hero, before Morning. The hero now intr
 - Versioned page links and shared stylesheet URLs prevent previously cached HTML/CSS from reappearing when navigating. Local preview server also sends no-store headers. No live-site changes.
 - All five menu items remain visible at 320px; no horizontal overflow on any of the six routes. Browser-tested Product → Contact → Product, with return to the current hunger-forecast product page. Footer/company details visually inspected on mobile; Contact inspected on desktop. Warning/error log empty.
 - Static checks confirm identical five-link menus, resolving local assets/links and business ID on every page. FAQ, Terms and Privacy article bodies match the previous commit exactly. CNAME, main and maintenance unchanged.
+
+## Sections 04 and 05 — Adaptive Music and future Journey — 2026-11-08
+
+Owner requested replacing Next and Adapt while retaining chapter numbering. Section 04 is now Adaptive Music; section 05 is Journey. Chapters remain 01–13; common navigation unchanged.
+
+- Music uses two new owner-provided screenshots: music profile/library and saved-track feedback. Copy describes personalized track selection, not generated songs or exclusive music ownership. Active Apple Music subscription requirement is clearly visible.
+- Journey describes a future positive-motivation community using statistical profile similarity and anonymous journeys to explore movement, meal habits and consistency. It does not promise equivalent results for another person.
+- Launch phase is described as accumulation of journey history. Planned algorithmic selection and possible financial rewards for contributors are explained separately. Recommendations/rewards are explicitly unavailable now; timing, eligibility, selection and payment terms are to be announced, with no guaranteed selection or earnings.
+- Created one future Journey screen with the built-in image generator, matching the existing app palette and companion. Both the screen and adjacent HTML label it as a future interface concept. Original output, exact prompt and provenance: `assets/images/concepts/JOURNEY-CONCEPT.md`; optimized site asset: `assets/images/concepts/journey-explore.webp`.
+- The two replaced screenshots remain archived in assets and the source manifest. There are 22 active original screenshots plus one generated future concept. All original source hashes retained.
+- Browser widths 1440, 1024, 390 and 320px: no horizontal overflow or clipped copy; all new images load. Music/Journey desktop and the mobile rewards/availability text visually inspected. Warning/error log empty. Local-link, source-hash, protected-ref and diff checks pass. No push, deployment, CNAME or public-maintenance change.
+- Screenshots: `qa/esiva-adaptive-music.jpg`, `qa/esiva-journey-concept.jpg` in the working folder.
