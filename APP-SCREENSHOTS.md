@@ -38,3 +38,13 @@ New owner-provided pink ESIVA artwork is used on the homepage and all informatio
 - `main` remains `98c9b380e2daa0f1240910a97a11e0a40c2846d6`; `temporary-maintenance` remains `057a824acab66b996413bbb9ebf6ae62c654b61c`. CNAME unchanged. No remote push or public publication.
 
 Local preview: http://127.0.0.1:8081/
+
+## Early balance and hunger story — 2026-11-08
+
+Added two chapters immediately after the hero, before Morning. The hero now introduces ESIVA as a closed-loop companion connecting food, movement and recovery, supporting weight goals and surfacing early hunger forecasts. Its CTA and the Product link lead to the new balance section.
+
+- `#balance`: owner-requested calorie-balance and gradual weight-goal positioning; signals → updated plan → feedback. Uses the supplied personal-goal screenshot.
+- `#hunger-forecast`: ARC Engine estimates potential hunger; the companion offers a prompt to plan ahead. Uses the supplied mascot timeline and hunger-risk prompt screenshots. Forecasts are described as estimates; no guaranteed weight loss or prevention of eating lapses is promised.
+- Three additional originals copied without modification; 22 app images now used once each. Existing screenshots and favicon preserved. Chapter numbering updated.
+- Browser checks at 1440×900, 1024×768, 390×844 and 320×740: no horizontal overflow, no clipped copy, all three new images loaded. Desktop balance/hunger and mobile hunger text visually inspected. Browser warning/error log empty. Local-link, image, source-hash and protected-ref checks pass.
+- Local screenshots: `qa/esiva-balance.jpg`, `qa/esiva-hunger-forecast.jpg` in the working folder. No publication or remote push.

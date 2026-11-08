@@ -150,5 +150,29 @@
     "height": 612,
     "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/8/80A7A2F4-FE65-4EB9-B4E6-E7CA815C24A6_4_5005_c.jpeg",
     "sha256": "111762b32068f6cf5695f7aff65632a107553b914f880a6cff8f68aef7425b5d"
+  },
+  "hunger-forecast": {
+    "src": "/assets/images/app/hunger-forecast.jpeg",
+    "alt": "Your companion highlights possible hunger on the day’s timeline",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/E/EE8246E9-B87D-4762-B697-5D7B07257594_4_5005_c.jpeg",
+    "sha256": "0fff91db7c2f4b0fbe47576a816b25fa6a9953c020f6883bb897d3aeb6728597"
+  },
+  "weight-perspective": {
+    "src": "/assets/images/app/weight-perspective.jpeg",
+    "alt": "Personal weight goal and energy-balance overview",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/D/D96406DA-9A63-4FEE-B255-37ABED54AC0A_4_5005_c.jpeg",
+    "sha256": "66a1e5ba315affb0ff3887f97bf434623b32e21eefd2c471155c24abf7c015ff"
+  },
+  "hunger-prompt": {
+    "src": "/assets/images/app/hunger-prompt.jpeg",
+    "alt": "An early hunger-risk prompt suggests planning the next meal",
+    "width": 281,
+    "height": 612,
+    "original": "/Users/germanchaikovskii/Pictures/Photos Library.photoslibrary/resources/derivatives/masters/1/1AC0FE14-7530-4934-9CC5-F34722E16352_4_5005_c.jpeg",
+    "sha256": "866a76e8c1d606972843fc74ea828556fa5487600616237bb59ccea90d8a4d4e"
   }
 }
