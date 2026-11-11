@@ -1,0 +1,20 @@
+/* In-house research beside the existing ARC application screenshot. */
+.section-arc .story-layout { grid-template-columns: minmax(0, 1fr); gap: 56px; }
+.section-arc .arc-copy { max-width: 850px; }
+.arc-visuals { display: grid; grid-template-columns: minmax(0, .75fr) minmax(0, 1.25fr); align-items: center; gap: clamp(36px, 6vw, 100px); width: 100%; max-width: 1100px; margin-inline: auto; }
+.arc-research { min-width: 0; margin: 0; }
+.arc-research-orbit { position: relative; width: 90%; max-width: 510px; aspect-ratio: 1; margin: 25px auto 52px; isolation: isolate; }
+.arc-research-rays { position: absolute; inset: 0; width: 100%; height: 100%; fill: none; stroke: #b99be7; stroke-width: .25; opacity: .5; }
+.arc-research-rays circle { stroke-dasharray: 1 2; opacity: .5; }
+.arc-research-core { position: absolute; inset: 33%; display: grid; place-items: center; border: 1px solid #d6bcff50; border-radius: 50%; background: radial-gradient(circle, #9271ca40, #17122d); box-shadow: 0 0 65px #a37ae530, inset 0 0 28px #b790ed15; }
+.arc-research-core img { display: block; width: 79%; height: 79%; object-fit: contain; }
+.arc-volunteer { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); width: 19%; height: 19%; border-radius: 50%; object-fit: cover; object-position: 50% 68%; border: 2px solid #dbcaef80; box-shadow: 0 8px 24px #0005; }
+.arc-research figcaption { max-width: 530px; margin-inline: auto; text-align: center; }
+.arc-research figcaption strong { display: block; font-size: clamp(22px, 2.1vw, 30px); font-weight: 600; letter-spacing: -.035em; line-height: 1.2; }
+.arc-research figcaption p { margin: 16px 0 0; font-size: 16px; line-height: 1.7; color: #d5cde2; }
+@media (max-width: 740px) {
+  .arc-visuals { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .arc-research { width: 100%; max-width: 550px; margin-inline: auto; }
+  .arc-research-orbit { margin-bottom: 40px; }
+  .arc-research figcaption { padding-inline: 8px; }
+}
