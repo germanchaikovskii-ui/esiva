@@ -18,9 +18,11 @@
   <link rel="stylesheet" href="/assets/css/site-chrome.css?v=20261108-company">
   <link rel="stylesheet" href="/assets/css/product-overview.css?v=20261109-journey-20261108-visual-story">
   <link rel="stylesheet" href="/assets/css/arc-research.css?v=20261110">
+  <link rel="stylesheet" href="/assets/css/day-film.css">
+  <script defer src="/assets/js/day-film.js"></script>
 </head>
 
-<body>
+<body class="product-film-page">
 
 <header class="site-header">
   <a class="brand" href="/?v=20261108-nav" aria-label="ESIVA home">
@@ -39,6 +41,25 @@
 
 
 <main>
+  <section class="day-film" aria-label="A day with ESIVA">
+    <video muted playsinline loop preload="none" poster="/assets/media/day-film/day-poster.jpg" aria-hidden="true">
+      <source media="(max-width: 620px)" src="/assets/media/day-film/day-480.mp4" type="video/mp4">
+      <source src="/assets/media/day-film/day-720.mp4" type="video/mp4">
+    </video>
+    <div class="day-film-copy">
+      <p data-start="0">While you sleep, ESIVA makes sense of your data.</p>
+      <p data-start="10" hidden>Wake up to a plan for your day.</p>
+      <p data-start="15" hidden>Recipes picked for you. Breakfast is sorted.</p>
+      <p data-start="25" hidden>Snap your meal. Log estimated protein, fat and carbs.</p>
+      <p data-start="30" hidden>What’s the workout? ESIVA has it ready.</p>
+      <p data-start="35" hidden>Today’s workout fits your energy and recovery.</p>
+      <p data-start="48" hidden>Follow each move on your phone or watch.</p>
+      <p data-start="54" hidden>See how your day adds up. Check your calorie balance.</p>
+      <p data-start="59" hidden>Save calories in your Calorie Bank for another day.</p>
+      <p data-start="64" hidden>Sleep well. ESIVA is already planning tomorrow.</p>
+    </div>
+    <button type="button" class="day-film-toggle" hidden>Play video</button>
+  </section>
 
 <section class="hero section-dark overview-hero" id="top">
   <div class="section-inner overview-layout">

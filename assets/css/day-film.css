@@ -1,0 +1,65 @@
+.product-film-page > .site-header {
+  position: sticky;
+  left: auto;
+  transform: none;
+  margin: 12px auto;
+  top: 12px;
+}
+
+.day-film {
+  isolation: isolate;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  max-height: 76svh;
+  color: #fff;
+  background: #10132d url("/assets/media/day-film/day-poster.jpg") center / cover;
+}
+.day-film video, .day-film::after {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.day-film video { object-fit: cover; object-position: center; }
+.day-film::after {
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(120deg, rgba(8, 10, 34, .72), transparent 57%), rgba(10, 12, 41, .13);
+}
+.day-film-copy {
+  position: absolute;
+  z-index: 1;
+  inset: clamp(20px, 4vw, 64px) auto auto max(5%, calc((100% - 1370px) / 2));
+  width: min(46%, 630px);
+}
+.day-film-copy p {
+  margin: 0;
+  font-size: clamp(24px, 3.35vw, 57px);
+  font-weight: 650;
+  line-height: 1.08;
+  letter-spacing: -.042em;
+  text-wrap: balance;
+  text-shadow: 0 2px 12px #12142a7a;
+}
+.day-film-toggle {
+  position: absolute;
+  z-index: 1;
+  right: clamp(12px, 2vw, 32px);
+  bottom: clamp(12px, 2vw, 26px);
+  min-height: 44px;
+  padding: 0 17px;
+  border: 1px solid #ffffff68;
+  border-radius: 24px;
+  background: #101126cf;
+  color: #fff;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.day-film-toggle:focus-visible { outline: 3px solid white; outline-offset: 3px; }
+@media (max-width: 620px) {
+  .day-film { aspect-ratio: 4 / 3; }
+  .day-film-copy { left: 4.5%; top: 6%; width: 62%; }
+  .day-film-copy p { font-size: clamp(20px, 5.25vw, 30px); }
+}
