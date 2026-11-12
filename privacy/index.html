@@ -89,7 +89,8 @@
     ESIVA is currently in development. This policy describes the application
     planned for public release. It distinguishes the existing essential local
     Apple Health and external AI Nutrition processing, and the existing
-    optional Story AI Processing and Voice Training AI Processing, from
+    optional Story AI Processing, Voice Training AI Processing and Apple Music
+    AI Processing, from
     planned optional analytics, which are not yet operating.
   </p>
 
@@ -140,6 +141,14 @@
       it outside your device. OpenAI interprets your reviewed workout
       description; ESIVA builds the workout locally. Declining C7 does not
       disable other training features.
+    </li>
+
+    <li>
+      <a href="#apple-music-ai-processing">Apple Music AI Processing (C8)</a>
+      is optional. Selected musical information is sent to OpenAI for music
+      calibration, public playlist classification and personalized music-library
+      planning. Withdrawal stops new Music AI processing; saved selections
+      remain available for playback when no new AI request is needed.
     </li>
 
     <li>
@@ -253,6 +262,14 @@
     not been requested. This evidence is separate from C1–C6.
   </p>
 
+  <p>
+    Optional <a href="#apple-music-ai-processing">C8 Apple Music AI consent</a>
+    has its own versioned Keychain record on your iPhone, separate from C1–C7.
+    It records the purpose, consent-copy version, timestamp, granted, declined
+    or withdrawn decision, App version and build, and locale. No record means
+    consent has not been requested.
+  </p>
+
   <h2>3. How Information Is Used</h2>
 
   <p>Information available to ESIVA may be used to:</p>
@@ -264,6 +281,7 @@
     <li>provide nutrition and meal-timing guidance;</li>
     <li>create Story images and related results with separate C6 consent;</li>
     <li>interpret your workout descriptions with separate C7 consent;</li>
+    <li>personalize music calibration and music-library planning with separate C8 consent;</li>
     <li>show training and muscle-load progress;</li>
     <li>provide recovery-related guidance;</li>
     <li>
@@ -383,7 +401,7 @@
 
   <p>
     To withdraw C2, open Settings → Consent Center → Withdraw Essential Data
-    Consent. Withdrawal blocks normal App access, new OpenAI requests and new
+    Consent. Withdrawal blocks normal App access, new AI requests covered by C2 and new
     covered iPhone-initiated HealthKit authorization, reading and refresh
     operations. It does not revoke Apple's system permissions, reset C3/C4
     choices, automatically delete existing local data or erase information
@@ -628,6 +646,128 @@
     affect the lawfulness of processing based on consent before withdrawal.
   </p>
 
+  <h2 id="apple-music-ai-processing" style="scroll-margin-top: 6rem;">5.3. Apple Music AI Processing (C8)</h2>
+
+  <p>
+    Music 2.0 uses separate optional Apple Music AI Processing consent (C8)
+    to personalize music calibration and music-library planning through
+    OpenAI. C8 is not part of onboarding and is not required for normal ESIVA
+    access or unrelated features. It does not authorize AI Nutrition, Story,
+    Voice Training or other AI purposes. Normal App access remains subject
+    to C1 and C2, and existing commercial requirements remain separate.
+  </p>
+
+  <h3>Music sources and AI processing</h3>
+
+  <p>
+    With your separate Apple Music authorization, ESIVA can retrieve limited
+    samples of songs in your library, recently played songs and Apple Music
+    recommendations. It constructs a bounded listening context rather than
+    sending your entire library or complete listening history to OpenAI.
+    The initial context contains up to 12 deduplicated selections represented
+    by track title, artist name and source category. These observations are
+    not necessarily songs you have explicitly marked as favourites.
+  </p>
+
+  <p>
+    Soundcharts is a separate external music-data provider supplying music
+    catalog, public playlist and song-level acoustic information. OpenAI
+    assists with interpretation, classification and discovery planning.
+    ESIVA maintains calibration evidence, music preferences, saved profiles
+    and candidate music-library membership locally on your iPhone; OpenAI
+    does not maintain your persistent ESIVA music profile for the App.
+  </p>
+
+  <p>The three active Music AI operations are:</p>
+
+  <ul>
+    <li>
+      <strong>Personal music calibration.</strong> When you start calibration
+      or recalibration, selected listening observations and track information
+      support AI nominations. Adaptive requests also use your comparison
+      answers, positive and negative music choices, genres, playlist and
+      recording identifiers, and song-level acoustic characteristics to refine
+      the musical preference evidence used by ESIVA.
+    </li>
+    <li>
+      <strong>Public playlist classification.</strong> During music discovery,
+      OpenAI classifies public Apple Music playlist metadata: the playlist
+      identifier, name and optional description. This operation does not send
+      your private listening history.
+    </li>
+    <li>
+      <strong>Music-library formation and updates.</strong> When ESIVA forms or
+      updates your personalized music library, AI-assisted search planning uses
+      existing calibration and comparison evidence, genre, source and regional
+      preferences, exclusions and other discovery constraints. Requests may
+      also include selected song and artist information, recording and playlist
+      identifiers, previous queries and search outcomes, Apple Music
+      search/verification feedback and relevant library-formation progress.
+      Previously collected calibration evidence can therefore be used in
+      subsequent requests to form or update your music library.
+    </li>
+  </ul>
+
+  <p>
+    These Music AI requests do not automatically include Apple Music
+    authentication tokens or account identifiers, device identifiers,
+    HealthKit records, Recovery or Training Load values, workout history,
+    physiological workout measurements, calorie data, stored non-music
+    personal profile information or audio recordings. Musical acoustic
+    characteristics describe songs, not your physiology. Musical preference
+    information is not necessarily anonymous merely because direct account
+    identifiers are absent. These boundaries apply to Music AI requests,
+    not to the other AI services described in this policy.
+  </p>
+
+  <h3>Your consent and Apple Music authorization</h3>
+
+  <p>
+    Before starting AI calibration or a library operation that needs C8,
+    ESIVA presents the Apple Music AI Processing disclosure if a valid current
+    grant is absent. The checkbox starts unchecked; Continue requires your
+    explicit selection and successful saving and verification of your consent.
+    Decline cancels the pending attempt without starting Apple Music acquisition
+    or AI processing. You can try again and reopen the same unchecked screen.
+    Previous Music AI grants do not automatically satisfy the current C8 consent.
+    While your current grant remains valid, it need not be repeated for each
+    operation, but every new C8-scoped OpenAI request, including a retry,
+    requires current authorization.
+  </p>
+
+  <p>
+    C8 is separate from Apple's MusicKit permission to access Apple Music.
+    Neither permission replaces the other. Apple Music access and playback
+    remain subject to the applicable Apple system permissions and service
+    availability.
+  </p>
+
+  <h3>Withdrawal, re-consent and saved playback</h3>
+
+  <p>
+    You can review your C8 status, withdraw consent or explicitly grant it
+    again in Settings → Consent Center. You can also grant consent again
+    directly when starting calibration or a Music AI operation. Declined or
+    withdrawn consent does not require a visit to Settings before retrying.
+    Withdrawal prevents new AI calibration, recalibration, playlist
+    classification, music-library formation, updates and other C8-scoped
+    OpenAI requests until you grant consent again.
+  </p>
+
+  <p>
+    Withdrawal does not automatically delete your calibrated profile, saved
+    music preferences, generated selections or existing music-library
+    membership. Saved results remain available for ordinary playback and local
+    ranking when no new Music AI request is needed, subject to Apple Music
+    authorization. Withdrawal does not revoke that authorization, change C1–C7
+    or cancel subscriptions. It does not reverse processing already completed
+    by OpenAI or automatically erase previously transmitted information.
+    Withdrawal does not affect the lawfulness of processing based on consent
+    before withdrawal; applicable erasure and other rights remain available
+    as described in section 13. Local records and provider retention have
+    separate lifecycles, as explained in sections 10 and 12.
+  </p>
+
   <h2>6. Health Data and Advertising</h2>
 
   <p>
@@ -709,8 +849,10 @@
     requests and the separate optional <a href="#story-ai-processing">C6 Story
     AI Processing</a> requests, as well as
     <a href="#voice-training-ai-processing">C7 Voice Training AI Processing</a>
-    requests. Apple provides Apple Speech recognition and relevant device,
-    Health and App Store services. Website hosting and email infrastructure
+    and <a href="#apple-music-ai-processing">C8 Apple Music AI Processing</a>
+    requests. Apple provides Apple Speech recognition, Apple Music access and
+    relevant device, Health and App Store services. Soundcharts supplies the
+    separate music-data services described in section 5.3. Website hosting and email infrastructure
     are separate from these OpenAI flows; they do not imply an ESIVA server
     holding all of your health data.
   </p>
@@ -730,8 +872,9 @@
 
   <p>
     OpenAI processes the information needed to provide AI Nutrition,
-    optional Story AI Processing and optional Voice Training AI Processing under the
-    applicable service and data-processing terms. This policy does not
+    optional Story AI Processing, optional Voice Training AI Processing and
+    optional Apple Music AI Processing under the applicable service and
+    data-processing terms. This policy does not
     guarantee a particular provider retention period, processing location or
     automatic deletion of previously submitted requests.
   </p>
@@ -745,7 +888,7 @@
 
   <ul>
     <li>
-      Necessary contractual processing outside C2, C6 and C7, where applicable,
+      Necessary contractual processing outside C2, C6, C7 and C8, where applicable,
       relies on Article 6(1)(b). This includes recording acceptance of the Terms (C1)
       and necessary service operations outside those consent-based purposes.
       C1 is not health-data consent.
@@ -774,6 +917,13 @@
       consent under Article 6(1)(a). Where the submitted description or answers
       involve special-category personal data, including health information,
       explicit consent under Article 9(2)(a) is the additional condition.
+    </li>
+    <li>
+      C8 Apple Music AI Processing is a separate optional purpose based on
+      consent under Article 6(1)(a). It concerns the musical information
+      described in section 5.3; song-level acoustic characteristics are not
+      physiological measurements, and the Music AI requests do not
+      automatically include health data.
     </li>
   </ul>
 
@@ -921,6 +1071,26 @@
         </td>
       </tr>
       <tr>
+        <th scope="row">C8 consent evidence</th>
+        <td>
+          A separate local Keychain record of the versioned Apple Music AI
+          consent decision, without an automatic calendar expiry. Withdrawal
+          updates the decision rather than deleting its evidence; removing the
+          App does not guarantee deletion of Keychain records.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">Music calibration, profiles and saved library results</th>
+        <td>
+          Saved locally under their existing music-profile and library
+          lifecycles. C8 does not introduce a separate calendar expiry for
+          these records. Withdrawal does not automatically delete them;
+          saved playback remains available when no new Music AI request is
+          needed. Local storage does not determine OpenAI or Soundcharts
+          retention.
+        </td>
+      </tr>
+      <tr>
         <th scope="row">C3 and C4 choices</th>
         <td>
           Independent values in local App settings, off when no choice is
@@ -979,6 +1149,7 @@
     <li>withdraw C2 consent, with the access consequences in section 5;</li>
     <li>independently withdraw or grant <a href="#story-ai-processing">C6 Story AI consent</a>;</li>
     <li>independently withdraw or grant <a href="#voice-training-ai-processing">C7 Voice Training AI consent</a>;</li>
+    <li>independently withdraw or grant <a href="#apple-music-ai-processing">C8 Apple Music AI consent</a> and separately manage Apple Music permissions;</li>
     <li>independently change your local C3 and C4 choices in Consent Center;</li>
     <li>delete confirmed meal groups or stop using ESIVA;</li>
     <li>
