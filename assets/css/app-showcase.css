@@ -90,3 +90,14 @@ h1{font-size:clamp(62px,7vw,90px)}h2{font-size:clamp(52px,5.5vw,76px)}
 .journey-availability strong{color:#3f4c60}
 @media(max-width:980px){.journey-layout{grid-template-columns:1fr;gap:35px}.journey-future{gap:30px}.journey-layout .copy{max-width:720px}}
 @media(max-width:620px){.journey-future{grid-template-columns:1fr;padding:25px 21px;gap:30px;border-radius:24px}.journey-future p{font-size:16px}.journey-future .journey-availability{font-size:13px}.journey-detail{font-size:17px}.music-access{font-size:14px}.future-badge{font-size:9px}.journey-concept{--device-width:276px}}
+
+.section-glucose {
+  color: #263d50;
+  background: radial-gradient(ellipse at 75% 38%, #d6e3ea, transparent 64%), #f6f0e6;
+}
+.section-glucose .lead { max-width: 70ch; }
+.glucose-gallery { align-items: flex-start; margin-top: 32px; }
+.glucose-gallery .app-device:nth-child(2) { margin-top: 0; }
+.glucose-gallery figcaption { text-align: left; font-size: 15px; opacity: 1; }
+.glucose-gallery figcaption strong { display: block; font-size: 18px; margin-bottom: 5px; }
+.glucose-note { max-width: 70ch; margin: 18px auto 0; text-align: center; font-size: 14px; line-height: 1.55; }
