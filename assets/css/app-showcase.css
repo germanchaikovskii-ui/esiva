@@ -54,7 +54,6 @@ h1{font-size:clamp(62px,7vw,90px)}h2{font-size:clamp(52px,5.5vw,76px)}
 .watch-pair{width:100%;max-width:100%;grid-template-columns:1fr 1fr;gap:18px;margin-top:15px}
 .watch-frame .device-body{padding:6px;border-radius:32px}.watch-frame img{border-radius:22px}.watch-frame figcaption{font-size:10px}
 .feature-stats{gap:16px}.feature-stats strong{font-size:36px}.feature-stats span{font-size:12px}
-.site-nav a{display:none!important}.site-nav a:first-child,.site-nav a:last-child{display:inline-flex!important}
 }
 @media(prefers-reduced-motion:reduce){.app-gallery{scroll-behavior:auto;scroll-snap-type:none}}
 .final-logo{border-radius:24%}

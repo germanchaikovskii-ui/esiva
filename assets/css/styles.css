@@ -1169,21 +1169,6 @@ footer a:hover {
     padding: 8px 10px;
   }
 
-  .site-nav {
-    gap: 2px;
-  }
-
-  .site-nav a {
-    display: none;
-  }
-
-  .site-nav a:first-child,
-  .site-nav a:nth-child(2) {
-    display: inline-flex;
-    padding: 8px 9px;
-    font-size: 10px;
-  }
-
   .brand {
     font-size: 12px;
   }
