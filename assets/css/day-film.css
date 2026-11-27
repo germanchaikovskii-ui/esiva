@@ -12,7 +12,7 @@
   aspect-ratio: 2 / 1;
   max-height: 76svh;
   color: #fff;
-  background: #10132d url("/assets/media/day-film/day-poster.jpg") center / cover;
+  background: #10132d url("/assets/media/day-film/day-poster.webp") center / cover;
 }
 .day-film video, .day-film::after {
   position: absolute;
@@ -62,4 +62,12 @@
   .day-film { aspect-ratio: 4 / 3; }
   .day-film-copy { left: 4.5%; top: 6%; width: 62%; }
   .day-film-copy p { font-size: clamp(20px, 5.25vw, 30px); }
+}
+
+/* Keep the first frame visible until the video actually starts. */
+.day-film video { opacity: 0; }
+.day-film.is-playing video { opacity: 1; }
+
+.app-device img[data-screen-full] {
+  background: #101218 var(--screen-preview) center / cover no-repeat;
 }

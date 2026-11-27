@@ -1,0 +1,33 @@
+@media (prefers-reduced-motion: no-preference) {
+  .product-film-page .scroll-reveal {
+    --reveal-x: 0px;
+    --reveal-y: 18px;
+    transition: opacity 540ms ease-out, translate 680ms cubic-bezier(.2, .7, .2, 1);
+  }
+
+  .product-film-page .scroll-reveal--screens {
+    --reveal-y: 22px;
+  }
+
+  .product-film-page .scroll-reveal.is-waiting:not(:focus-within) {
+    opacity: 0;
+    translate: var(--reveal-x) var(--reveal-y);
+  }
+
+  @media (min-width: 901px) {
+    .product-film-page .scroll-reveal--screens {
+      --reveal-x: 28px;
+      --reveal-y: 8px;
+      transition-delay: 75ms;
+    }
+
+    .product-film-page .reverse .scroll-reveal--screens {
+      --reveal-x: -28px;
+    }
+
+    .product-film-page .glucose-gallery {
+      --reveal-x: 0px;
+      --reveal-y: 22px;
+    }
+  }
+}
